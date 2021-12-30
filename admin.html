@@ -24,6 +24,87 @@
     <title>Publikasi Dosen UNIKOM</title>
   </head>
   <body>
-    <div class="wrapper"><h1>admin</h1></div>
+    <div class="wrapper">
+      <div class="header">
+        <form action="" class="filter">
+          <label class="bm-input-label" for="filter">Filter</label>
+          <div class="bm-input">
+            <input
+              type="text"
+              id="nama"
+              class="bm-input__field"
+              placeholder="Kata kunci"
+            />
+          </div>
+        </form>
+        <div class="actions">
+          <button type="button" class="bm-btn">
+            <span class="bm-btn__icon">
+              <i class="fas fa-hourglass-start"></i>
+            </span>
+
+            <span class="bm-btn__label">Scrape</span>
+          </button>
+          <button type="button" class="bm-btn">
+            <span class="bm-btn__icon">
+              <i class="fas fa-plus"></i>
+            </span>
+            <span class="bm-btn__label">Tambah</span>
+          </button>
+        </div>
+      </div>
+      <table class="bm-table" style="width: 100%">
+        <thead>
+          <th>ID</th>
+          <th>ID Scopus</th>
+          <th>Nama</th>
+          <th>Fakultas</th>
+          <th>Prodi</th>
+          <th>Update Terakhir</th>
+          <th>Aksi</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>57204495477</td>
+            <td>Angga Setiyadi</td>
+            <td>Teknik dan Ilmu Komputer</td>
+            <td>Teknik Informatika</td>
+            <td>22.00 - 30 Desember 2021</td>
+            <td>
+              <a href="/" class="bm-link">Lihat Detail</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="/" class="bm-link">Hapus</a>
+            </td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>56411885900</td>
+            <td>Adam Mukharil Bachtiar</td>
+            <td>Teknik dan Ilmu Komputer</td>
+            <td>Teknik Informatika</td>
+            <td>22.00 - 30 Desember 2021</td>
+            <td>
+              <a href="/" class="bm-link">Lihat Detail</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="/" class="bm-link">Hapus</a>
+            </td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>57204187129</td>
+            <td>Dian Dharmayanti</td>
+            <td>Teknik dan Ilmu Komputer</td>
+            <td>Teknik Informatika</td>
+            <td>22.00 - 30 Desember 2021</td>
+            <td>
+              <a href="/" class="bm-link">Lihat Detail</a
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="/" class="bm-link">Hapus</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
