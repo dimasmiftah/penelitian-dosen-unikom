@@ -32,28 +32,22 @@
     <div class="wrapper flex">
       <div class="charts">
         <div
-          class="chart-container"
+          class="chart-container item1"
           style="position: relative; height: 40vh; width: 45vw"
         >
           <canvas id="myChart1"></canvas>
         </div>
         <div
-          class="chart-container"
+          class="chart-container item2"
           style="position: relative; height: 40vh; width: 45vw"
         >
           <canvas id="myChart2"></canvas>
         </div>
         <div
-          class="chart-container"
-          style="position: relative; height: 40vh; width: 45vw"
+          class="chart-container item3"
+          style="position: relative; height: 40vh"
         >
           <canvas id="myChart3"></canvas>
-        </div>
-        <div
-          class="chart-container"
-          style="position: relative; height: 40vh; width: 45vw"
-        >
-          <canvas id="myChart4"></canvas>
         </div>
       </div>
     </div>
@@ -61,55 +55,32 @@
       const ctx1 = document.getElementById('myChart1');
       const ctx2 = document.getElementById('myChart2');
       const ctx3 = document.getElementById('myChart3');
-      const ctx4 = document.getElementById('myChart4');
+
       const myChart1 = new Chart(ctx1, {
-        type: 'bar',
+        type: 'line',
         data: {
-          labels: [
-            'Teknik Informatika',
-            'Sistem Komputer',
-            'Teknik Komputer',
-            'Teknik Industri',
-            'Teknik Elektro',
-            'Teknik Sipil',
-            'Teknik Arsitektur',
-            'Teknik Perencanaan Wilayah &amp; Kota',
-            'Sistem Informasi',
-            'Manajemen Informatika',
-            'Komputerisasi Akuntansi',
-            'Akuntansi',
-            'Akuntansi',
-            'Manajemen',
-            'Manajemen Pemasaran',
-            'Keuangan &amp; Perbankan',
-            'Ilmu Komunikasi',
-            'Ilmu Pemerintahan',
-            'Ilmu Hubungan Internasional',
-            'Ilmu Hukum',
-            'Desain Komunikasi Visual',
-            'Desain Interior',
-            'Sastra Inggris',
-            'Sastra Jepang',
-          ],
+          labels: ['2018', '2019', '2020', '2021', '2022'],
           datasets: [
             {
               label: 'Jumlah Dokumen',
-              data: [
-                120, 190, 30, 50, 20, 30, 120, 190, 30, 50, 20, 30, 120, 190,
-                30, 50, 20, 30, 120, 190, 30, 50, 20, 30,
-              ],
-              backgroundColor: ['rgba(54, 162, 235, 0.2)'],
-              borderColor: ['rgba(54, 162, 235, 1)'],
+
+              data: [140, 130, 140, 160, 150],
+              backgroundColor: ['rgba(255, 159, 64, 0.2)'],
+              borderColor: ['rgba(255, 159, 64, 1)'],
               borderWidth: 1,
             },
           ],
         },
         options: {
+          interaction: {
+            intersect: false,
+            mode: 'index',
+          },
           responsive: true,
           plugins: {
             title: {
               display: true,
-              text: 'Publikasi Program Studi',
+              text: 'Jumlah Dokumen Publikasi 5 Tahun Terakhir',
             },
           },
           scales: {
@@ -119,50 +90,49 @@
           },
         },
       });
+
       const myChart2 = new Chart(ctx2, {
-        type: 'line',
+        type: 'bar',
         data: {
           labels: [
-            '2005',
-            '2006',
-            '2007',
-            '2008',
-            '2009',
-            '2010',
-            '2011',
-            '2012',
-            '2013',
-            '2014',
-            '2015',
-            '2016',
-            '2017',
-            '2018',
-            '2019',
-            '2020',
+            'Angga Setiyadi',
+            'Adam Mukharil Bachtiar',
+            'Dian Dharmayanti',
+            'Teni Maryatin',
+            'Leonardi Paris Hasugian',
+            'Asri Soraya Afsari',
+            'M Zulfi Abdul Malik',
+            'Nia Karniawati',
+            'Ayu Pratiwi Ulfah',
+            'Eko Budi Setiawan',
           ],
           datasets: [
             {
               label: 'Jumlah Dokumen',
-              fill: {
-                target: 'origin',
-                above: 'rgba(255, 159, 64, 0.2)', // Area will be blue above the origin
-              },
-              data: [
-                140, 130, 140, 160, 150, 140, 120, 130, 140, 130, 150, 140, 120,
-                130, 140, 150,
-              ],
-              backgroundColor: ['rgba(255, 159, 64, 0.2)'],
-              borderColor: ['rgba(255, 159, 64, 1)'],
+              data: [60, 30, 50, 20, 30, 30, 50, 20, 30, 20],
+              backgroundColor: ['rgba(75, 192, 192, 0.2)'],
+              borderColor: ['rgba(75, 192, 192, 1)'],
+              borderWidth: 1,
+            },
+            {
+              label: 'Jumlah Sitasi',
+              data: [60, 30, 50, 20, 30, 30, 50, 20, 30, 20],
+              backgroundColor: ['rgba(153, 102, 255, 0.2)'],
+              borderColor: ['rgba(153, 102, 255, 1)'],
               borderWidth: 1,
             },
           ],
         },
         options: {
+          interaction: {
+            intersect: false,
+            mode: 'index',
+          },
           responsive: true,
           plugins: {
             title: {
               display: true,
-              text: 'Publikasi Per Tahun',
+              text: '10 Dosen Dengan Publikasi Terbanyak',
             },
           },
           scales: {
@@ -184,31 +154,21 @@
             'Teknik Elektro',
             'Teknik Sipil',
             'Teknik Arsitektur',
-            'Teknik Perencanaan Wilayah &amp; Kota',
+            'Teknik Perencanaan Wilayah & Kota',
             'Sistem Informasi',
             'Manajemen Informatika',
-            'Komputerisasi Akuntansi',
-            'Akuntansi',
-            'Akuntansi',
-            'Manajemen',
-            'Manajemen Pemasaran',
-            'Keuangan &amp; Perbankan',
-            'Ilmu Komunikasi',
-            'Ilmu Pemerintahan',
-            'Ilmu Hubungan Internasional',
-            'Ilmu Hukum',
-            'Desain Komunikasi Visual',
-            'Desain Interior',
-            'Sastra Inggris',
-            'Sastra Jepang',
           ],
           datasets: [
             {
+              label: 'Jumlah Dokumen',
+              data: [120, 190, 30, 50, 20, 30, 120, 190, 30, 50],
+              backgroundColor: ['rgba(54, 162, 235, 0.2)'],
+              borderColor: ['rgba(54, 162, 235, 1)'],
+              borderWidth: 1,
+            },
+            {
               label: 'Jumlah Sitasi',
-              data: [
-                190, 30, 50, 20, 30, 30, 50, 20, 30, 120, 120, 190, 30, 50, 20,
-                30, 120, 190, 30, 50, 20, 30, 120, 190,
-              ],
+              data: [190, 30, 50, 20, 30, 30, 50, 20, 30, 120],
               backgroundColor: ['rgba(255, 99, 132, 0.2)'],
               borderColor: ['rgba(255, 99, 132, 1)'],
               borderWidth: 1,
@@ -216,11 +176,17 @@
           ],
         },
         options: {
+          interaction: {
+            intersect: false,
+            mode: 'index',
+          },
           responsive: true,
+          aspectRatio: 13 / 3,
+
           plugins: {
             title: {
               display: true,
-              text: 'Publikasi Program Studi',
+              text: '10 Prodi Dengan Dokumen Publikasi Terbanyak',
             },
           },
           scales: {
@@ -230,98 +196,6 @@
           },
         },
       });
-
-      const myChart4 = new Chart(ctx4, {
-        type: 'bar',
-        data: {
-          labels: [
-            'Angga Setiyadi',
-            'Adam Mukharil Bachtiar',
-            'Dian Dharmayanti',
-            'Teni Maryatin',
-            'Leonardi Paris Hasugian',
-            'Asri Soraya Afsari',
-            'M Zulfi Abdul Malik',
-            'Nia Karniawati',
-            'Ayu Pratiwi Ulfah',
-            'Eko Budi Setiawan',
-          ],
-          datasets: [
-            {
-              label: 'Jumlah Dokumen',
-              data: [
-                60, 30, 50, 20, 30, 30, 50, 20, 30, 20, 20, 60, 30, 50, 20, 30,
-                20, 60, 30, 50, 20, 30, 20, 60,
-              ],
-              backgroundColor: ['rgba(75, 192, 192, 0.2)'],
-              borderColor: ['rgba(75, 192, 192, 1)'],
-              borderWidth: 1,
-            },
-            {
-              label: 'Jumlah Sitasi',
-              data: [
-                60, 30, 50, 20, 30, 30, 50, 20, 30, 20, 20, 60, 30, 50, 20, 30,
-                20, 60, 30, 50, 20, 30, 20, 60,
-              ],
-              backgroundColor: ['rgba(153, 102, 255, 0.2)'],
-              borderColor: ['rgba(153, 102, 255, 1)'],
-              borderWidth: 1,
-            },
-          ],
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            title: {
-              display: true,
-              text: 'Publikasi 10 Dosen Teratas',
-            },
-          },
-          scales: {
-            y: {
-              beginAtZero: true,
-            },
-          },
-        },
-      });
-
-      //   const myChart4 = new Chart(ctx4, {
-      //     type: 'bar',
-      //     data: {
-      //       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-      //       datasets: [
-      //         {
-      //           label: '# of Votes',
-      //           data: [12, 19, 3, 5, 2, 3],
-      //           backgroundColor: [
-      //             'rgba(255, 99, 132, 0.2)', //merah
-      //             'rgba(54, 162, 235, 0.2)', // ungu
-      //             'rgba(255, 206, 86, 0.2)', // pink
-      //             'rgba(75, 192, 192, 0.2)', // ungu
-      //             'rgba(153, 102, 255, 0.2)', // ungu
-      //             'rgba(255, 159, 64, 0.2)',
-      //           ],
-      //           borderColor: [
-      //             'rgba(255, 99, 132, 1)',
-      //             'rgba(54, 162, 235, 1)',
-      //             'rgba(255, 206, 86, 1)',
-      //             'rgba(75, 192, 192, 1)',
-      //             'rgba(153, 102, 255, 1)',
-      //             'rgba(255, 159, 64, 1)',
-      //           ],
-      //           borderWidth: 1,
-      //         },
-      //       ],
-      //     },
-      //     options: {
-      //   responsive:true,
-      //       scales: {
-      //         y: {
-      //           beginAtZero: true,
-      //         },
-      //       },
-      //     },
-      //   });
     </script>
   </body>
 </html>

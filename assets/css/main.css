@@ -8,8 +8,10 @@
 }
 
 .charts {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-areas:
+    'left right'
+    'bottom bottom';
   gap: 2rem;
 }
 
@@ -18,7 +20,17 @@
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.item1 {
+  grid-area: left;
+}
+.item2 {
+  grid-area: right;
+}
+.item3 {
+  grid-area: bottom;
 }
 
 .header {
