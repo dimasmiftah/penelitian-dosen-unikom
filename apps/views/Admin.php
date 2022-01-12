@@ -1,0 +1,289 @@
+<?php require('partials/header.php'); ?>
+<div class="wrapper">
+      <div class="header">
+        <form action="" class="filter">
+          <label class="bm-input-label" for="filter">Filter</label>
+          <div class="bm-input">
+            <input
+              type="text"
+              id="nama"
+              class="bm-input__field"
+              placeholder="Kata kunci"
+            />
+          </div>
+        </form>
+        <div class="actions">
+          <button type="button" class="bm-btn">
+            <span class="bm-btn__icon">
+              <i class="fas fa-download"></i>
+            </span>
+
+            <span class="bm-btn__label">Ambil Data Publikasi</span>
+          </button>
+
+          <a rel="modal:open" href="#contoh_modal">
+            <button type="button" class="bm-btn">
+              <span class="bm-btn__icon">
+                <i class="fas fa-plus"></i>
+              </span>
+              <span class="bm-btn__label">Tambah</span>
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="bm-modal bm-modal--scrollable"
+        id="contoh_modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-label"
+        tabindex="-1"
+        style="width: 40%"
+      >
+        <div class="bm-modal__header">
+          <h5 class="bm-modal__title">Tambah Data</h5>
+          <a
+            class="bm-modal__button-close"
+            aria-label="close"
+            rel="modal:close"
+          >
+            <span class="bm-modal__icon-close"></span>
+            <span class="bm-sr-only">Close</span>
+          </a>
+        </div>
+
+        <div class="bm-modal__body">
+          <form action="">
+            <label class="bm-input-label" for="id_scopus">ID Scopus</label>
+            <div class="bm-input">
+              <input
+                type="text"
+                id="id_scopus"
+                class="bm-input__field"
+                placeholder="ID Scopus dosen"
+              />
+            </div>
+
+            <br />
+            <label class="bm-input-label" for="id_scopus">NIK</label>
+            <div class="bm-input">
+              <input
+                type="text"
+                id="id_scopus"
+                class="bm-input__field"
+                placeholder="NIK dosen"
+              />
+            </div>
+
+            <br />
+            <label class="bm-input-label" for="nama">Nama</label>
+            <div class="bm-input">
+              <input
+                type="text"
+                id="nama"
+                class="bm-input__field"
+                placeholder="Nama lengkap dosen"
+                disabled
+              />
+            </div>
+
+            <br />
+            <label class="bm-input-label" for="fakultas">Fakultas</label>
+            <div class="bm-input">
+              <input
+                type="text"
+                id="fakultas"
+                class="bm-input__field"
+                placeholder="Nama fakultas"
+                disabled
+              />
+            </div>
+
+            <br />
+            <label class="bm-input-label" for="prodi">Prodi</label>
+            <div class="bm-input">
+              <input
+                type="text"
+                id="prodi"
+                class="bm-input__field"
+                placeholder="Nama program studi"
+                disabled
+              />
+            </div>
+          </form>
+        </div>
+
+        <div class="bm-modal__footer">
+          <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
+            <span class="bm-btn__label">Close</span>
+          </a>
+          <button type="button" class="bm-btn">
+            <span class="bm-btn__label">Save</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="table">
+        <table class="bm-table" style="width: 100%">
+          <thead>
+            <th>ID</th>
+            <th>ID Scopus</th>
+            <th>Nama</th>
+            <th>Fakultas</th>
+            <th>Prodi</th>
+            <th>Update Terakhir</th>
+            <th>Aksi</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>57204495477</td>
+              <td>Angga Setiyadi</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>56411885900</td>
+              <td>Adam Mukharil Bachtiar</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>003</td>
+              <td>57204187129</td>
+              <td>Dian Dharmayanti</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>001</td>
+              <td>57204495477</td>
+              <td>Angga Setiyadi</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>56411885900</td>
+              <td>Adam Mukharil Bachtiar</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>003</td>
+              <td>57204187129</td>
+              <td>Dian Dharmayanti</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>001</td>
+              <td>57204495477</td>
+              <td>Angga Setiyadi</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>56411885900</td>
+              <td>Adam Mukharil Bachtiar</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>003</td>
+              <td>57204187129</td>
+              <td>Dian Dharmayanti</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>001</td>
+              <td>57204495477</td>
+              <td>Angga Setiyadi</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>56411885900</td>
+              <td>Adam Mukharil Bachtiar</td>
+              <td>Teknik dan Ilmu Komputer</td>
+              <td>Teknik Informatika</td>
+              <td>22.00 - 30 Desember 2021</td>
+              <td>
+                <a href="/" class="bm-link">Lihat Detail</a
+                >&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/" class="bm-link">Hapus</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+<?php require ('partials/footer.php'); ?>
