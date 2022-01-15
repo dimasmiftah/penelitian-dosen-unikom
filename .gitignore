@@ -3,7 +3,6 @@
 
 # Except this file
 !.gitignore
-.env
 
 # folder vendor
 .github/*
