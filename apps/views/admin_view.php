@@ -127,8 +127,8 @@
       <div class="table">
         <table class="bm-table" style="width: 100%">
           <thead>
-            <th>ID</th>
             <th>ID Scopus</th>
+            <th>NIP</th>
             <th>Nama</th>
             <th>Fakultas</th>
             <th>Prodi</th>
@@ -136,149 +136,21 @@
             <th>Aksi</th>
           </thead>
           <tbody>
+          <?php foreach($authors as $key): ?>
             <tr>
-              <td>001</td>
-              <td>57204495477</td>
-              <td>Angga Setiyadi</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
+              <td><?php echo $key->id_scopus; ?></td>
+              <td><?php echo $key->nip; ?></td>
+              <td><?php echo $key->nama_dosen; ?></td>
+              <td><?php echo $key->fak; ?></td>
+              <td><?php echo $key->prodi; ?></td>
+              <td><?php echo $key->createAt; ?></td>
               <td>
                 <a href="/" class="bm-link">Lihat Detail</a
                 >&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="/" class="bm-link">Hapus</a>
               </td>
             </tr>
-            <tr>
-              <td>002</td>
-              <td>56411885900</td>
-              <td>Adam Mukharil Bachtiar</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>003</td>
-              <td>57204187129</td>
-              <td>Dian Dharmayanti</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>001</td>
-              <td>57204495477</td>
-              <td>Angga Setiyadi</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>002</td>
-              <td>56411885900</td>
-              <td>Adam Mukharil Bachtiar</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>003</td>
-              <td>57204187129</td>
-              <td>Dian Dharmayanti</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>001</td>
-              <td>57204495477</td>
-              <td>Angga Setiyadi</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>002</td>
-              <td>56411885900</td>
-              <td>Adam Mukharil Bachtiar</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>003</td>
-              <td>57204187129</td>
-              <td>Dian Dharmayanti</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>001</td>
-              <td>57204495477</td>
-              <td>Angga Setiyadi</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
-            <tr>
-              <td>002</td>
-              <td>56411885900</td>
-              <td>Adam Mukharil Bachtiar</td>
-              <td>Teknik dan Ilmu Komputer</td>
-              <td>Teknik Informatika</td>
-              <td>22.00 - 30 Desember 2021</td>
-              <td>
-                <a href="/" class="bm-link">Lihat Detail</a
-                >&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/" class="bm-link">Hapus</a>
-              </td>
-            </tr>
+            <?php endforeach; ?>
           </tbody>
         </table>
       </div>

@@ -62,13 +62,13 @@ $router->get('info', function () {
 
 //  default welcome
 $router->get('/', function () {
-    return view('Home'); # langsung view
-    Routes::Routing("welcome", "index"); # panggil controller
+    return view('home_view'); # langsung view
+    //Routes::Routing("welcome", "index"); # panggil controller
 });
 
 $router->get('/admin', function () {
-    return view('Admin'); # langsung view
-    // Routes::Routing("welcome", "index"); # panggil controller
+    //return view('Admin'); # langsung view
+    Routes::Routing("AuthorController", "index"); # panggil controller
 });
 
 
