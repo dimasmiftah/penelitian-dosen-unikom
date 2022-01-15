@@ -310,5 +310,20 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script>
+      fetch(
+        'https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=',
+        {
+          mode: 'no-cors',
+          credentials: 'include',
+        }
+      )
+        .then(function (response) {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log('Looks like there was a problem: ', error);
+        });
+    </script>
   </body>
 </html>

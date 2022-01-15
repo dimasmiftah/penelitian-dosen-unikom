@@ -1,0 +1,4356 @@
+{
+  "dosen": [
+    {
+      "nip": "4127",
+      "nama_dosen": "Dadang Munandar M.Si.,SE",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41270201004",
+      "nama_dosen": "Drs Djoko Djauhari MM",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41270201007",
+      "nama_dosen": "Riswono Soegoto MM",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41270201012",
+      "nama_dosen": "Yayah Sutisnawati SE.,MM.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "x"
+    },
+    {
+      "nip": "41270201013",
+      "nama_dosen": "Mari Maryati SE.,MM.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "x"
+    },
+    {
+      "nip": "41270501055",
+      "nama_dosen": "Hadi Purnomo S.E., M.M",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "x"
+    },
+    {
+      "nip": "41270901089",
+      "nama_dosen": "Senny Luckyardi M.M.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41271101105",
+      "nama_dosen": "Sofyan Permana Putra",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41272003004",
+      "nama_dosen": "Dr. Retno Purwani Sari M.Hum, S.S.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "146tqgcAAAAJ"
+    },
+    {
+      "nip": "41272003007",
+      "nama_dosen": "Dr. Juanda M.Pd.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": "57212084243",
+      "id_gs": "Awf7o6wAAAAJ"
+    },
+    {
+      "nip": "41272003010",
+      "nama_dosen": "Asih Prihandini S.S., M.Hum",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "UhEl6PgAAAAJ"
+    },
+    {
+      "nip": "41272003011",
+      "nama_dosen": "Tatan Tawami M.Hum, S.S.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "uEAKriAAAAAJ"
+    },
+    {
+      "nip": "41272003020",
+      "nama_dosen": "Dr. Nungki Heriyati S.S.,M.A",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "CFiOig0AAAAJ"
+    },
+    {
+      "nip": "41272003021",
+      "nama_dosen": "Muhammad Rayhan Bustam S.S., M.Hum.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "W6d_o5EAAAAJ"
+    },
+    {
+      "nip": "41272003022",
+      "nama_dosen": "Nenden Rikma Dewi M.Hum",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "zUNoUvgAAAAJ"
+    },
+    {
+      "nip": "41272003023",
+      "nama_dosen": "Mia Rahmawati Yuwita S.Hum., M.App.Ling.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41272004001",
+      "nama_dosen": "Dr Soni Mulyawan Setiana S.Pd, M.Pd",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": "57212086746",
+      "id_gs": "grDCRDUAAAAJ"
+    },
+    {
+      "nip": "41272004003",
+      "nama_dosen": "Pitri Haryanti M.Pd, S.Pd",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41272004004",
+      "nama_dosen": "Fenny Febrianty S.S., M.Pd.",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "b9BSATMAAAAJ"
+    },
+    {
+      "nip": "41272004005",
+      "nama_dosen": "Yenny Hendrawati",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41272004008",
+      "nama_dosen": "Riska Sri Rahmawati S.S., M.Pd",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41272004009",
+      "nama_dosen": "Jeni Putra M.Pd S.Pd",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41272004011",
+      "nama_dosen": "Anisa Arianingsih S.Pd, M.Pd",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "Oyeq-L0AAAAJ"
+    },
+    {
+      "nip": "41272004013",
+      "nama_dosen": "Mohammad Ali S.Pd., M.A.",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": "6gF1KsQAAAAJ&hl"
+    },
+    {
+      "nip": "41273006036",
+      "nama_dosen": "Prof. Dr. Nang Primadi Tabrani Prof",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273204001",
+      "nama_dosen": "Tiara Isfiaty M.Sn, S.Sn",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "UZfXMPgAAAAJ"
+    },
+    {
+      "nip": "41273204002",
+      "nama_dosen": "Cherry Dharmawan S.Sn, M.Sn",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "KpP77f8AAAAJ"
+    },
+    {
+      "nip": "41273204007",
+      "nama_dosen": "Dina Fatimah M.Ds, S.Ds",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "CAvXUkoAAAAJ"
+    },
+    {
+      "nip": "41273204015",
+      "nama_dosen": "Ryanty Derwentyana Nazhar M.Ds",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "SCQu98cAAAAJ"
+    },
+    {
+      "nip": "41273204016",
+      "nama_dosen": "Tidak Diketahui",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273204017",
+      "nama_dosen": "Febry Maharlika M.Sn",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "WMX54B0AAAAJ"
+    },
+    {
+      "nip": "41273204018",
+      "nama_dosen": "Chandra Gunawan S.Ds.,MM",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206001",
+      "nama_dosen": "Dr. Yully Ambarsih Ekawardhani M.Sn, S.Sn",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "lFcAaKIAAAAJ"
+    },
+    {
+      "nip": "41273206001",
+      "nama_dosen": "Dr. Yully Ambarsih Ekawardhani M.Sn, S.Sn",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": "lFcAaKIAAAAJ"
+    },
+    {
+      "nip": "41273206002",
+      "nama_dosen": "Didi Subandi",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206003",
+      "nama_dosen": "Dr. Taufan Hidayatullah S.Sn, M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "NNBl8psAAAAJ"
+    },
+    {
+      "nip": "41273206003",
+      "nama_dosen": "Dr. Taufan Hidayatullah S.Sn, M.Ds",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": "NNBl8psAAAAJ"
+    },
+    {
+      "nip": "41273206010",
+      "nama_dosen": "Dr. Kankan Kasmana S.Sn, M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "OQ14z-oAAAAJ"
+    },
+    {
+      "nip": "41273206010",
+      "nama_dosen": "Dr. Kankan Kasmana S.Sn, M.Ds",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": "OQ14z-oAAAAJ"
+    },
+    {
+      "nip": "41273206011",
+      "nama_dosen": "Rini Maulina M.Sn, S.Sn",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": "57193845740",
+      "id_gs": "-pKc8bUAAAAJ"
+    },
+    {
+      "nip": "41273206011",
+      "nama_dosen": "Rini Maulina M.Sn, S.Sn",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57193845740",
+      "id_gs": "-pKc8bUAAAAJ"
+    },
+    {
+      "nip": "41273206012",
+      "nama_dosen": "M. Syahril Iskandar S.Sn.,M.Ds.",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "Uqr8E5kAAAAJ"
+    },
+    {
+      "nip": "41273206012",
+      "nama_dosen": "M. Syahril Iskandar S.Sn.,M.Ds.",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": "Uqr8E5kAAAAJ"
+    },
+    {
+      "nip": "41273206013",
+      "nama_dosen": "Deni Albar S.Sn, M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": "57193555871",
+      "id_gs": "buo-TLIAAAAJ"
+    },
+    {
+      "nip": "41273206017",
+      "nama_dosen": "Irwan Tarmawan S.Sn., M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "KpeZ7oMAAAAJ"
+    },
+    {
+      "nip": "41273206018",
+      "nama_dosen": "Dodi Nursaiman S.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206019",
+      "nama_dosen": "Ivan Kurniawan S.Sn, M.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "CZnj2YcAAAAJ"
+    },
+    {
+      "nip": "41273206019",
+      "nama_dosen": "Ivan Kurniawan S.Sn, M.Ds.",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "CZnj2YcAAAAJ"
+    },
+    {
+      "nip": "41273206020",
+      "nama_dosen": "Wantoro M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "7O4hG-kAAAAJ"
+    },
+    {
+      "nip": "41273206020",
+      "nama_dosen": "Wantoro M.Ds",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "7O4hG-kAAAAJ"
+    },
+    {
+      "nip": "41273206021",
+      "nama_dosen": "Irma Rochmawati M.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "Bn6_RDIAAAAJ"
+    },
+    {
+      "nip": "41273206021",
+      "nama_dosen": "Irma Rochmawati M.Ds.",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "Bn6_RDIAAAAJ"
+    },
+    {
+      "nip": "41273206032",
+      "nama_dosen": "Gema Ariprahara M.Ds, S.Sn",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": "57193854253",
+      "id_gs": "xtC3crIAAAAJ"
+    },
+    {
+      "nip": "41273206044",
+      "nama_dosen": "Wira Mahardika Putra S.Ds, M.M",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "5ZhVvxEAAAAJ"
+    },
+    {
+      "nip": "41273206047",
+      "nama_dosen": "Prof. Widagdo DIPL.Inn.Arch.",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206049",
+      "nama_dosen": "Dr. Abay D. Subarna ",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206050",
+      "nama_dosen": "Satria Indra Praja Persada S.Ds., M.M",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "Ta_NoBEAAAAJ"
+    },
+    {
+      "nip": "41273206051",
+      "nama_dosen": "Cininta Golda Emmanuella Matulessy S.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206053",
+      "nama_dosen": "Linda Mega Silviana M.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206054",
+      "nama_dosen": "Elah Sari Purnama M.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273206058",
+      "nama_dosen": "Merlina Fatimah Nasruddin M.DS.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "N1SR5FoAAAAJ"
+    },
+    {
+      "nip": "41273206058",
+      "nama_dosen": "Merlina Fatimah Nasruddin M.DS.",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "N1SR5FoAAAAJ"
+    },
+    {
+      "nip": "41273206067",
+      "nama_dosen": "Deddy Kurniawan M.Ds",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "Q292tqMAAAAJ"
+    },
+    {
+      "nip": "41273206071",
+      "nama_dosen": "Ahmad Nurzaeni Fauzi M. Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "ahmad.nz@email.unikom.ac.id"
+    },
+    {
+      "nip": "41273206086",
+      "nama_dosen": "Adityo B. Hardoyo M.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "Adityo B. Hardoyo"
+    },
+    {
+      "nip": "41273206086",
+      "nama_dosen": "Adityo B. Hardoyo M.Ds.",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "Adityo B. Hardoyo"
+    },
+    {
+      "nip": "41273206087",
+      "nama_dosen": "Arif Try Cahyadi S.Ds., M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": "oDSYBoMAAAAJ"
+    },
+    {
+      "nip": "41273300005",
+      "nama_dosen": "Dr. Hetty Hassanah S.H., M.H.",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": "wdFOCW4AAAAJ"
+    },
+    {
+      "nip": "41273300006",
+      "nama_dosen": "Arinita Sandria M.Hum, S.H.",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": "LgwuV6QAAAAJ"
+    },
+    {
+      "nip": "41273300007",
+      "nama_dosen": "Febilita Wulan Sari S.H.,M.H",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": "xvfNHigAAAAJ"
+    },
+    {
+      "nip": "41273300012",
+      "nama_dosen": "Dwi Iman Muthaqin",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273300013",
+      "nama_dosen": "Rr. Dijan Widijowati",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273300014",
+      "nama_dosen": "Wita Oktadeanti M.H.,S.H",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273300015",
+      "nama_dosen": "Dr. Sahat Maruli Tua Situmeang S.H., M.H.",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": "57193851273",
+      "id_gs": "JBuG4RMAAAAJ"
+    },
+    {
+      "nip": "41273300017",
+      "nama_dosen": "Dr. Musa Darwin Pane S.H., M.H.",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": "W5_MDjUAAAAJ"
+    },
+    {
+      "nip": "41273300019",
+      "nama_dosen": "Wahyudi SH., M.H",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273402001",
+      "nama_dosen": "Dr. Isniar Budiarti S.E., M.Si.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "Qk2WmvgAAAAJ"
+    },
+    {
+      "nip": "41273402004",
+      "nama_dosen": "Dr. Lita Wulantika M.Si",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "EZbW0TYAAAAJ"
+    },
+    {
+      "nip": "41273402004",
+      "nama_dosen": "Dr. Lita Wulantika M.Si",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "EZbW0TYAAAAJ"
+    },
+    {
+      "nip": "41273402006",
+      "nama_dosen": "Dr Raeny Dwisanty S.E., M.SI",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "1E0PJiQAAAAJ"
+    },
+    {
+      "nip": "41273402008",
+      "nama_dosen": "Dr. Linna Ismawati S.E., M.Si",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "cMVYXt8AAAAJ"
+    },
+    {
+      "nip": "41273402012",
+      "nama_dosen": "Trustorini Handayani S.E.,M.Si",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "e-DKeh0AAAAJ"
+    },
+    {
+      "nip": "41273402015",
+      "nama_dosen": "Prof. Dr. Umi Narimawati Dra.,SE.,M.Si",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57189496923",
+      "id_gs": "Nb_p440AAAAJ"
+    },
+    {
+      "nip": "41273402019",
+      "nama_dosen": "Dr. Rizki Zulfikar SE., M.Si",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "gT48WaQAAAAJ"
+    },
+    {
+      "nip": "41273402021",
+      "nama_dosen": "Windi Novianti SE.,MM",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "o7j22kcAAAAJ"
+    },
+    {
+      "nip": "41273402032",
+      "nama_dosen": "Lia Yulianti M.Pd.,S.E",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273402048",
+      "nama_dosen": "Dadang Rohandi",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273402049",
+      "nama_dosen": "Muhammad Iffan SE., MM.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "M3SSvcEAAAAJ"
+    },
+    {
+      "nip": "41273402049",
+      "nama_dosen": "Muhammad Iffan SE., MM.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "M3SSvcEAAAAJ"
+    },
+    {
+      "nip": "41273402051",
+      "nama_dosen": "Nurjanah",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273402053",
+      "nama_dosen": "Taufik Nugraha",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273402054",
+      "nama_dosen": "Arionita Chasty G",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273402056",
+      "nama_dosen": "Yusuf Tanjung ST.,MBA",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273402058",
+      "nama_dosen": "Arjuna Rizaldi S.E., M.A.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "UDpHSvUAAAAJ"
+    },
+    {
+      "nip": "41273402058",
+      "nama_dosen": "Arjuna Rizaldi S.E., M.A.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "UDpHSvUAAAAJ"
+    },
+    {
+      "nip": "41273403003",
+      "nama_dosen": "Dr. Sri Dewi Anggadini S.E., M.Si., Ak., CA",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57194507138",
+      "id_gs": "U2248KkAAAAJ"
+    },
+    {
+      "nip": "41273403004",
+      "nama_dosen": "Dr Ony Widilestariningtyas SE.,MSi.,Ak.,CA.",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "PHb3T9EAAAAJ"
+    },
+    {
+      "nip": "41273403004",
+      "nama_dosen": "Dr Ony Widilestariningtyas SE.,MSi.,Ak.,CA.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "PHb3T9EAAAAJ"
+    },
+    {
+      "nip": "41273403006",
+      "nama_dosen": "Dr Ely Suhayati S.E., M.Si., Ak. CA",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57191376011",
+      "id_gs": "DNNLqPwAAAAJ"
+    },
+    {
+      "nip": "41273403007",
+      "nama_dosen": "Dr. Surtikanti S.E., M.Si., Ak., CA",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "GtDeI-0AAAAJ"
+    },
+    {
+      "nip": "41273403008",
+      "nama_dosen": "Dr. Lilis Puspitawati S.E., M.Si.,Ak.,CA",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57189500860",
+      "id_gs": "QVaPngoAAAAJ"
+    },
+    {
+      "nip": "41273403010",
+      "nama_dosen": "Wati Aris Astuti S.E., M.Si,. Ak., CA.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57212088535",
+      "id_gs": "6Se_UkkAAAAJ"
+    },
+    {
+      "nip": "41273403015",
+      "nama_dosen": "Dr. Siti Kurnia Rahayu S.E. M.Ak., Ak, CA",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57189489654",
+      "id_gs": "9ayl8ZAAAAAJ"
+    },
+    {
+      "nip": "41273403016",
+      "nama_dosen": "Adi Rachmanto S.Kom., M.Kom",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "jrss7f8AAAAJ"
+    },
+    {
+      "nip": "41273403031",
+      "nama_dosen": "Dr. Inta Budi Setya Nusa SE., M.Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "GsC-Hf4AAAAJ"
+    },
+    {
+      "nip": "41273403046",
+      "nama_dosen": "Helena Rizqia M.M.,S.E.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273403047",
+      "nama_dosen": "Angky Febriansyah SE.,MM.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "c96xUNsAAAAJ"
+    },
+    {
+      "nip": "41273403048",
+      "nama_dosen": "Dr. Adeh Ratna Komala SE.,M.Si.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "O60eYt8AAAAJ"
+    },
+    {
+      "nip": "41273530002",
+      "nama_dosen": "Dr. Rismawaty S.Sos,M.Si",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": "57193553998",
+      "id_gs": "5NfKYvUAAAAJ"
+    },
+    {
+      "nip": "41273530004",
+      "nama_dosen": "Dr. Melly Maulin Purwaningwulan S.Sos, M.Si",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": "57208907432",
+      "id_gs": "yutsR5gAAAAJ"
+    },
+    {
+      "nip": "41273530006",
+      "nama_dosen": "Dr. Desayu Eka Surya S.Sos., M.Si., CICS",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": "57189491386",
+      "id_gs": "1CEFVLUAAAAJ"
+    },
+    {
+      "nip": "41273530007",
+      "nama_dosen": "Dr. Manap Solihat M.Si",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": "57193557036",
+      "id_gs": "9Uf5WHkAAAAJ"
+    },
+    {
+      "nip": "41273530009",
+      "nama_dosen": "Inggar Prayoga S.I.K om,M.I.Kom",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "8HXBE8UAAAAJ"
+    },
+    {
+      "nip": "41273530012",
+      "nama_dosen": "Dr. Adiyana Slamet S.IP, M.Si",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "W3JPY6AAAAAJ"
+    },
+    {
+      "nip": "41273530016",
+      "nama_dosen": "Olih Solihin M.I.Kom",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": "57193556709",
+      "id_gs": "rl27A_cAAAAJ"
+    },
+    {
+      "nip": "41273530017",
+      "nama_dosen": "Oki Achmad Ismail S.Sos.,M.Si",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273530023",
+      "nama_dosen": "Iin Rahmi Handayani",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273530024",
+      "nama_dosen": "Tine Agustin Wulandari S.I.Kom., M.I.Kom.",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": "57193552117",
+      "id_gs": "Av8C_pEAAAAJ"
+    },
+    {
+      "nip": "41273530026",
+      "nama_dosen": "Arie Prasetio",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273530045",
+      "nama_dosen": "Safutra Rantona M.I.Kom.",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273530046",
+      "nama_dosen": "Dr. Ir. Yuni Dahlia Yosepha Mogot M.Si., CPR.",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273531002",
+      "nama_dosen": "Dr. Nia Karniawati S.IP, M.Si",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "76sIFO8AAAAJ"
+    },
+    {
+      "nip": "41273531003",
+      "nama_dosen": "Dr.Hj. Dewi Kurniasih S.IP.,M.Si.",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": "57199685060",
+      "id_gs": "ZIiqfjEAAAAJ"
+    },
+    {
+      "nip": "41273531005",
+      "nama_dosen": "Nursonah Nopirahayu S.IP, M.M.",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273531007",
+      "nama_dosen": "Tatik Rohmawati S.IP.,M.Si",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": "74090fa1511e6440457e206f4",
+      "id_gs": "ViX5ELoAAAAJ"
+    },
+    {
+      "nip": "41273531008",
+      "nama_dosen": "Rino Adibowo S.IP.,M.I.Pol",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "-9bDPBx3dqwC"
+    },
+    {
+      "nip": "41273531009",
+      "nama_dosen": "Dr. Tatik Fidowaty S.IP., M.Si",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "2iP5xmgAAAAJ"
+    },
+    {
+      "nip": "41273531010",
+      "nama_dosen": "Dr. Poni Sukaesih Kurniati M.Si, S.IP",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": "57204176027",
+      "id_gs": "O8fe04YAAAAJ"
+    },
+    {
+      "nip": "41273532002",
+      "nama_dosen": "Andrias Darmayadi S.IP, M.Si, Ph.D",
+      "prodi": "Hubungan Internasional",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "vlsz62cAAAAJ"
+    },
+    {
+      "nip": "41273532003",
+      "nama_dosen": "Yesi Marince ",
+      "prodi": "Hubungan Internasional",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41273532006",
+      "nama_dosen": "H Budi Mulyana M.Si, S.IP",
+      "prodi": "Hubungan Internasional",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "iM5E3N4AAAAJ"
+    },
+    {
+      "nip": "41273532007",
+      "nama_dosen": "Dr. Dewi Triwahyuni M.Si, S.IP",
+      "prodi": "Hubungan Internasional",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "XLAbpwgAAAAJ"
+    },
+    {
+      "nip": "41273532008",
+      "nama_dosen": "Sylvia Octa Putri S.IP.,M.I.Pol",
+      "prodi": "Hubungan Internasional",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": "SIGmHvIAAAAJ"
+    },
+    {
+      "nip": "412757101009",
+      "nama_dosen": "Dr. Yusrila Y Kerlooza S.Si, M.T",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "6504807677",
+      "id_gs": "-tkgrp0AAAAJ"
+    },
+    {
+      "nip": "412757101010",
+      "nama_dosen": "Dr. Yeffry Handoko Putra S.T, M.T",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57212087545",
+      "id_gs": "1ZsGxKkAAAAJ"
+    },
+    {
+      "nip": "412757101010",
+      "nama_dosen": "Dr. Yeffry Handoko Putra S.T, M.T",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57212087545",
+      "id_gs": "1ZsGxKkAAAAJ"
+    },
+    {
+      "nip": "412761101002",
+      "nama_dosen": "Dr. Dedi Sulistiyo S S.T, M.T.,CRP.,CIHCM",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57204174154",
+      "id_gs": "NNI6N4IAAAAJ"
+    },
+    {
+      "nip": "412761101008",
+      "nama_dosen": "Dr. Deden Abdul Wahab Sya'roni Ir.,M.Si",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57204887482",
+      "id_gs": "O3hkVMwAAAAJ"
+    },
+    {
+      "nip": "412761101010",
+      "nama_dosen": "Dr. Rahma Wahdiniwaty M.Si, Dra",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57193845073",
+      "id_gs": "qCHG4OoAAAAJ"
+    },
+    {
+      "nip": "412770001",
+      "nama_dosen": "Prof. Dr. Ir. H. Eddy Soeryanto Soegoto MT",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "35070456600",
+      "id_gs": "bfPvahkAAAAJ"
+    },
+    {
+      "nip": "412770001",
+      "nama_dosen": "Prof. Dr. Ir. H. Eddy Soeryanto Soegoto MT",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "35070456600",
+      "id_gs": "bfPvahkAAAAJ"
+    },
+    {
+      "nip": "412770002",
+      "nama_dosen": "Assoc. Prof. Dr. Ir. Herman S. Soegoto MBA.",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57203954747",
+      "id_gs": "UE-l3XIAAAAJ"
+    },
+    {
+      "nip": "412770002",
+      "nama_dosen": "Assoc. Prof. Dr. Ir. Herman S. Soegoto MBA.",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57203954747",
+      "id_gs": "UE-l3XIAAAAJ"
+    },
+    {
+      "nip": "412770007",
+      "nama_dosen": "Prof. Dr. Hj. Ria Ratna Ariawati ",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "412770017",
+      "nama_dosen": "Prof. Dr. Hj. Mien Rukmini SH., MS.",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "412770019",
+      "nama_dosen": "Prof. Dr. Hj. Dwi Kartini SE., Spec.Lic.",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "412770023",
+      "nama_dosen": "Tidak Diketahui",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277003002",
+      "nama_dosen": "Dr. Henny S.T, M.T",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204187429",
+      "id_gs": "OrRjNQ8AAAAJ"
+    },
+    {
+      "nip": "41277003003",
+      "nama_dosen": "Julian Robecca S.T. M.T",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193555024",
+      "id_gs": "vHNijUQAAAAJ"
+    },
+    {
+      "nip": "41277003004",
+      "nama_dosen": "I Made Aryantha Anthara S.T.MT",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204176935",
+      "id_gs": "q_GW0zwAAAAJ"
+    },
+    {
+      "nip": "41277003005",
+      "nama_dosen": "Alam Santosa S.T, M.T",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57210406719",
+      "id_gs": "uv-A17kAAAAJ"
+    },
+    {
+      "nip": "41277003006",
+      "nama_dosen": "Diana Andriani S.T, M.M.MT",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204182959",
+      "id_gs": "ZlBudAwAAAAJ"
+    },
+    {
+      "nip": "41277003006",
+      "nama_dosen": "Diana Andriani S.T, M.M.MT",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57204182959",
+      "id_gs": "ZlBudAwAAAAJ"
+    },
+    {
+      "nip": "41277003007",
+      "nama_dosen": "Dr Agus Riyanto S.T.,M.T",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57193554937",
+      "id_gs": "PuIl9JwAAAAJ"
+    },
+    {
+      "nip": "41277003009",
+      "nama_dosen": "Iyan Andriana S.T., M.T.",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "SW0R97sAAAAJ"
+    },
+    {
+      "nip": "41277003010",
+      "nama_dosen": "Gabriel Sianturi M.T, S.T",
+      "prodi": "Teknik Industri",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204171778",
+      "id_gs": "ODbHv2MAAAAJ"
+    },
+    {
+      "nip": "41277004005",
+      "nama_dosen": "Augie Widyotriatmo",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277004008",
+      "nama_dosen": "Muhammad Aria Rajasa Pohan M.T",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204171027",
+      "id_gs": "LYOgscQAAAAJ"
+    },
+    {
+      "nip": "41277004012",
+      "nama_dosen": "Angga Rusdinar",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277004014",
+      "nama_dosen": "Levy Olivia Nur",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277004015",
+      "nama_dosen": "Tri Rahajoeningroem ST., MT.",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204173468",
+      "id_gs": "y0cFWuQAAAAJ"
+    },
+    {
+      "nip": "41277004016",
+      "nama_dosen": "Bobi Kurniawan S ST.,M.Kom",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193551563",
+      "id_gs": "d06xPoEAAAAJ"
+    },
+    {
+      "nip": "41277004017",
+      "nama_dosen": "Rodi Hartono M.T.",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57212092499",
+      "id_gs": "Rv9BIcIAAAAJ"
+    },
+    {
+      "nip": "41277004018",
+      "nama_dosen": "Jana Utama M.T, S.T",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204188436",
+      "id_gs": "cyLb7n8AAAAJ"
+    },
+    {
+      "nip": "41277004019",
+      "nama_dosen": "Budi Herdiana S.T., M.T.",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57194782920",
+      "id_gs": "IapkqXQAAAAJ"
+    },
+    {
+      "nip": "41277005003",
+      "nama_dosen": "Selvia Lorena Br Ginting S.Si., M.T",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193852061",
+      "id_gs": "pWxrvYgAAAAJ"
+    },
+    {
+      "nip": "41277005006",
+      "nama_dosen": "Asep Solih Awalluddin",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277005007",
+      "nama_dosen": "John Adler S.Si, M.Si",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "55387026900",
+      "id_gs": "vAar4LkAAAAJ"
+    },
+    {
+      "nip": "41277005008",
+      "nama_dosen": "Usep Mohamad Ishaq S.Si., M.Si., Ph.D.",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57200292438",
+      "id_gs": "OMk4tUsAAAAJ"
+    },
+    {
+      "nip": "41277005010",
+      "nama_dosen": "Dr. Wendi Zarman M.Si",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57190937522",
+      "id_gs": "fxAymKoAAAAJ"
+    },
+    {
+      "nip": "41277005011",
+      "nama_dosen": "Hidayat S.Kom., MT.",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "55237805800",
+      "id_gs": "tlLFoOwAAAAJ"
+    },
+    {
+      "nip": "41277005013",
+      "nama_dosen": "Sri Nurhayati MT",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204188975",
+      "id_gs": "hZCrQVUAAAAJ"
+    },
+    {
+      "nip": "41277005016",
+      "nama_dosen": "Ir. Syahrul M.T.",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57202902362",
+      "id_gs": "l8QdwtEAAAAJ"
+    },
+    {
+      "nip": "41277005017",
+      "nama_dosen": "Agus Mulyana S.Kom, M.T",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57202149735",
+      "id_gs": "RcQPyz4AAAAJ"
+    },
+    {
+      "nip": "41277005018",
+      "nama_dosen": "Susmini Indriani Lestariningati S.T, M.T",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "56623095700",
+      "id_gs": "hU2-XN0AAAAJ"
+    },
+    {
+      "nip": "41277005019",
+      "nama_dosen": "Andi Sugandi S.Kom",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277005020",
+      "nama_dosen": "Taufiq Nuzwir Nizar M.Kom, M.T",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57190802506",
+      "id_gs": "s9wZKWIAAAAJ"
+    },
+    {
+      "nip": "41277005023",
+      "nama_dosen": "Sri Supatmi S.Kom.,M.T., D.Sc",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57194095804",
+      "id_gs": "8NNWSV8AAAAJ"
+    },
+    {
+      "nip": "41277005023",
+      "nama_dosen": "Sri Supatmi S.Kom.,M.T., D.Sc",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57194095804",
+      "id_gs": "8NNWSV8AAAAJ"
+    },
+    {
+      "nip": "41277005026",
+      "nama_dosen": "Sutono M.Kom.",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204179138",
+      "id_gs": "Nv-renkAAAAJ"
+    },
+    {
+      "nip": "41277005030",
+      "nama_dosen": "Ayub Subandi S. Si., M.T.",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "3-ErcQ4AAAAJ"
+    },
+    {
+      "nip": "41277005031",
+      "nama_dosen": "Irfan Dwiguna Sumitra S.Kom., M.Kom. Ph.D",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57194098936",
+      "id_gs": "tiZ5YXwAAAAJ"
+    },
+    {
+      "nip": "41277005031",
+      "nama_dosen": "Irfan Dwiguna Sumitra S.Kom., M.Kom. Ph.D",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": "57194098936",
+      "id_gs": "tiZ5YXwAAAAJ"
+    },
+    {
+      "nip": "41277005032",
+      "nama_dosen": "Mochamad Fajar Wicaksono S.Kom., M.Kom",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204178999",
+      "id_gs": "ji9XuHEAAAAJ"
+    },
+    {
+      "nip": "41277005033",
+      "nama_dosen": "Aprianti Putri Sujana S.Kom, M.T.",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204187881",
+      "id_gs": "Xxmy-SkAAAAJ"
+    },
+    {
+      "nip": "41277005037",
+      "nama_dosen": "Hani Irmayanti S.Kom.,M.Kom",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204188342",
+      "id_gs": "b6Xzy1UAAAAJ"
+    },
+    {
+      "nip": "41277005039",
+      "nama_dosen": "Sugeng S.Kom., M.T",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "k2QkmzgAAAAJ&hl"
+    },
+    {
+      "nip": "41277006005",
+      "nama_dosen": "Dian Dharmayanti S.T, M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204187129",
+      "id_gs": "sVDc_g8AAAAJ"
+    },
+    {
+      "nip": "41277006006",
+      "nama_dosen": "Tati Harihayati Mardzuki S.T, M.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204181854",
+      "id_gs": "M1_IJLAAAAAJ"
+    },
+    {
+      "nip": "41277006007",
+      "nama_dosen": "Andri Heryandi MT.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204173707",
+      "id_gs": "ZIhoi0YAAAAJ"
+    },
+    {
+      "nip": "41277006009",
+      "nama_dosen": "Irawan Afrianto S.T, M.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204188766",
+      "id_gs": "-gD3gykAAAAJ"
+    },
+    {
+      "nip": "41277006017",
+      "nama_dosen": "Taryana Suryana ST., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "c5vUJXQAAAAJ"
+    },
+    {
+      "nip": "41277006019",
+      "nama_dosen": "Irfan Maliki S.T, M.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204179314",
+      "id_gs": "o7GjPqAAAAAJ"
+    },
+    {
+      "nip": "41277006020",
+      "nama_dosen": "Iskandar Ikbal S.T., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204183341",
+      "id_gs": "DcdKFtAAAAAJ"
+    },
+    {
+      "nip": "41277006022",
+      "nama_dosen": "Galih Hermawan S.Kom, M.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57189241247",
+      "id_gs": "jPQg7owAAAAJ"
+    },
+    {
+      "nip": "41277006023",
+      "nama_dosen": "Rani Susanto S.Kom., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204171589",
+      "id_gs": "1gakK-IAAAAJ"
+    },
+    {
+      "nip": "41277006024",
+      "nama_dosen": "Adam Mukharil Bachtiar S.Kom., M.T.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "56411885900",
+      "id_gs": "LFSe-FkAAAAJ"
+    },
+    {
+      "nip": "41277006025",
+      "nama_dosen": "Alif Finandhita S.Kom, M.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204180761",
+      "id_gs": "22GFLzIAAAAJ"
+    },
+    {
+      "nip": "41277006026",
+      "nama_dosen": "Sufa atin S.T, M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204173381",
+      "id_gs": "URAH5vMAAAAJ"
+    },
+    {
+      "nip": "41277006052",
+      "nama_dosen": "Angga Setiyadi M.Kom.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204495477",
+      "id_gs": "Y0X2xvsAAAAJ"
+    },
+    {
+      "nip": "41277006073",
+      "nama_dosen": "Ratna Kumala Dewi S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277006085",
+      "nama_dosen": "Geraldi Catur Pamuji S.Kom., M.Kom",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": "I1FVxCAAAAAJ"
+    },
+    {
+      "nip": "41277006090",
+      "nama_dosen": "Utami Dewi Widianti M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204182971",
+      "id_gs": "d9zwGIcAAAAJ"
+    },
+    {
+      "nip": "41277006091",
+      "nama_dosen": "Eko Budi Setiawan S.Kom., M.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "56829262300",
+      "id_gs": "479my4oAAAAJ"
+    },
+    {
+      "nip": "41277006092",
+      "nama_dosen": "Kania Evita Dewi S.Pd., M.Si",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193853368",
+      "id_gs": "W5W1ifQAAAAJ"
+    },
+    {
+      "nip": "41277006099",
+      "nama_dosen": "Erick Wijaya S.Kom., M. T.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277006112",
+      "nama_dosen": "Bayuambara Ajibrata Satiyo",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277006122",
+      "nama_dosen": "Nelly Indriani Widiastuti M.T.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57164794100",
+      "id_gs": "DE4EW6kAAAAJ"
+    },
+    {
+      "nip": "41277006125",
+      "nama_dosen": "Ednawati Rainarli S.Si., M.Si.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57194046739",
+      "id_gs": "yIpYzMYAAAAJ"
+    },
+    {
+      "nip": "41277006127",
+      "nama_dosen": "Riani Lubis S.T, M.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204174766",
+      "id_gs": "Nnt4D7MAAAAJ"
+    },
+    {
+      "nip": "41277006128",
+      "nama_dosen": "Gentisya Tri Mardiani S.Kom., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204188102",
+      "id_gs": "vYVLJlAAAAAJ"
+    },
+    {
+      "nip": "41277006129",
+      "nama_dosen": "Anna Dara Andriana S.Kom.,M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204173643",
+      "id_gs": "PN5HTr8AAAAJ"
+    },
+    {
+      "nip": "41277006132",
+      "nama_dosen": "Richi Dwi Agustia S.Kom., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204171827",
+      "id_gs": "ZfGQxCkAAAAJ"
+    },
+    {
+      "nip": "41277006133",
+      "nama_dosen": "Rangga Gelar Guntara S.Kom., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204186308",
+      "id_gs": "xlF4q14AAAAJ"
+    },
+    {
+      "nip": "41277006133",
+      "nama_dosen": "Rangga Gelar Guntara S.Kom., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204186308",
+      "id_gs": "xlF4q14AAAAJ"
+    },
+    {
+      "nip": "41277006134",
+      "nama_dosen": "Hanhan Maulana M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204179927",
+      "id_gs": "ozGaMLEAAAAJ"
+    },
+    {
+      "nip": "41277006135",
+      "nama_dosen": "Dedeng Hirawan S.Kom.,M.Kom.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204176549",
+      "id_gs": "wclz8eAAAAAJ"
+    },
+    {
+      "nip": "41277006139",
+      "nama_dosen": "Didit Andri Jatmiko S.Kom.,MT.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193703805",
+      "id_gs": "GP3ZX4kAAAAJ"
+    },
+    {
+      "nip": "41277006139",
+      "nama_dosen": "Didit Andri Jatmiko S.Kom.,MT.",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193703805",
+      "id_gs": "GP3ZX4kAAAAJ"
+    },
+    {
+      "nip": "41277006141",
+      "nama_dosen": "Chrismikha Hardyanto S.Kom., M.Kom.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "x"
+    },
+    {
+      "nip": "41277006142",
+      "nama_dosen": "Dien Amalia S.Kom.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277006143",
+      "nama_dosen": "Dwikeu Novi Asrika S.Kom, M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "x"
+    },
+    {
+      "nip": "41277006144",
+      "nama_dosen": "Fakhrian Fadlia Adiwijaya M.kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "x"
+    },
+    {
+      "nip": "41277006149",
+      "nama_dosen": "Rizki Adam Kurniawan",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277006153",
+      "nama_dosen": "Sopian Alviana S.Kom., M.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204182637",
+      "id_gs": "fAcZhp0AAAAJ"
+    },
+    {
+      "nip": "41277006154",
+      "nama_dosen": "Irwan Septiadi M.Si.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277012001",
+      "nama_dosen": "Dr. Salmon Priaji Martana S.T., M.T.",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204180169",
+      "id_gs": "mT7oIEEAAAAJ"
+    },
+    {
+      "nip": "41277012002",
+      "nama_dosen": "Ilhamdaniah",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277012009",
+      "nama_dosen": "Dr. Wanita Subadra Abioso Ir., MT",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57203965420",
+      "id_gs": "i_nzo7UAAAAJ"
+    },
+    {
+      "nip": "41277012010",
+      "nama_dosen": "Dr. Dhini Dewiyanti Tantarto M.T, Ir",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57189501612",
+      "id_gs": "GDkIXVAAAAAJ"
+    },
+    {
+      "nip": "41277012011",
+      "nama_dosen": "R. Denny Firdaus Kelana",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277012012",
+      "nama_dosen": "Tri Widianti Natalia M.T, S.T",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "n6kEDY8AAAAJ"
+    },
+    {
+      "nip": "41277012017",
+      "nama_dosen": "Dr Andi Harapan S. MT",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "KXwufV8AAAAJ"
+    },
+    {
+      "nip": "41277012020",
+      "nama_dosen": "Nova Chandra Aditya S.T., M.T.",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277013001",
+      "nama_dosen": "Dr Y DJoko Setiyarto S.T, M.T",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204186026",
+      "id_gs": "SRKn9JoAAAAJ"
+    },
+    {
+      "nip": "41277013006",
+      "nama_dosen": "Yatna Supriyatna",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277013008",
+      "nama_dosen": "Dr Mohamad Donie Aulia ST., MT., MM",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "pQDo2A8AAAAJ"
+    },
+    {
+      "nip": "41277013009",
+      "nama_dosen": "Darmawan Shofriyasin ST",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277013012",
+      "nama_dosen": "Dr. Vitta Pratiwi M.T",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "G82zjf8AAAAJ"
+    },
+    {
+      "nip": "41277013014",
+      "nama_dosen": "Falderika ST.,MT.",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277017001",
+      "nama_dosen": "Dr. Ir. Romeiza Syafriharti MT.",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "_jYwAOYAAAAJ"
+    },
+    {
+      "nip": "41277017002",
+      "nama_dosen": "Rifiati Safariah M.T, S.T",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57189502995",
+      "id_gs": "d-OzQdwAAAAJ"
+    },
+    {
+      "nip": "41277017005",
+      "nama_dosen": "Tatang Suheri M.T, S.T",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "Rjv0zt0AAAAJ"
+    },
+    {
+      "nip": "41277017006",
+      "nama_dosen": "Dr. Lia Warlina M.Si, Ir",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "56736811600",
+      "id_gs": "SeFDjlcAAAAJ"
+    },
+    {
+      "nip": "41277017011",
+      "nama_dosen": "Kani Mahardika ST.,MT.",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "oQ2rGXEAAAAJ"
+    },
+    {
+      "nip": "41277017012",
+      "nama_dosen": "Selfa Septiani ST., MT.",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "cxBJ2icAAAAJ"
+    },
+    {
+      "nip": "41277017014",
+      "nama_dosen": "Ari Nurman S.T., M.Sc., Ph.D.",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277026001",
+      "nama_dosen": "Tono Hartono S.Si, M.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57202586358",
+      "id_gs": "hslz27cAAAAJ"
+    },
+    {
+      "nip": "41277026002",
+      "nama_dosen": "Dr. Wartika S.Kom, MT",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204175486",
+      "id_gs": "eZN0Uz0AAAAJ"
+    },
+    {
+      "nip": "41277026003",
+      "nama_dosen": "Lusi Melian S.Si, MT",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204186404",
+      "id_gs": "wdAy3M0AAAAJ"
+    },
+    {
+      "nip": "41277026004",
+      "nama_dosen": "Rina Kurniawati",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277026006",
+      "nama_dosen": "Wahyuni S.Si, M.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204177331",
+      "id_gs": "YOwiZBoAAAAJ"
+    },
+    {
+      "nip": "41277026009",
+      "nama_dosen": "Citra Noviyasari M.T, S.Si",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "60Vwsc4AAAAJ"
+    },
+    {
+      "nip": "41277026010",
+      "nama_dosen": "Iyan Gustiana M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204189139",
+      "id_gs": "aX-liXEAAAAJ"
+    },
+    {
+      "nip": "41277026011",
+      "nama_dosen": "Yasmi Afrizal S.Kom, M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193860831",
+      "id_gs": "AXgvLJgAAAAJ"
+    },
+    {
+      "nip": "41277026012",
+      "nama_dosen": "Imelda Pangaribuan S.T, M.T",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204183128",
+      "id_gs": "RA3iH-kAAAAJ"
+    },
+    {
+      "nip": "41277026013",
+      "nama_dosen": "Diana Effendi S.T, M.T",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "VJcBXO8AAAAJ"
+    },
+    {
+      "nip": "41277026014",
+      "nama_dosen": "Wahyu Nurjaya Wk",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277026016",
+      "nama_dosen": "R. Fenny Syafariani M.Stat.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57202576554",
+      "id_gs": "bvNVPBgAAAAJ"
+    },
+    {
+      "nip": "41277026017",
+      "nama_dosen": "Novrini Hasti S.Si, M.T.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193351194",
+      "id_gs": "WYaiOp0AAAAJ"
+    },
+    {
+      "nip": "41277026018",
+      "nama_dosen": "Evy Sulistyo Rini",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277026019",
+      "nama_dosen": "Dadang Munandar S.E., M.Si",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277026020",
+      "nama_dosen": "Dr. Marliana Budhiningtias Winanti M.Si, S.Si",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204184406",
+      "id_gs": "GVWdcygAAAAJ"
+    },
+    {
+      "nip": "41277026021",
+      "nama_dosen": "Syahrul Mauluddin S.Kom, M.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204178898",
+      "id_gs": "ghDHRAoAAAAJ"
+    },
+    {
+      "nip": "41277026035",
+      "nama_dosen": "Julian Chandra Wibawa M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57193845829",
+      "id_gs": "XG2hnNsAAAAJ"
+    },
+    {
+      "nip": "41277026084",
+      "nama_dosen": "Bella Hardiyana S.Kom, M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204173939",
+      "id_gs": "1WXZaVMAAAAJ"
+    },
+    {
+      "nip": "41277026085",
+      "nama_dosen": "Andri Sahata Sitanggang S.Kom., M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204177997",
+      "id_gs": "QNlzSIgAAAAJ"
+    },
+    {
+      "nip": "41277026107",
+      "nama_dosen": "Muhammad Rajab Fachrizal S. Kom., M. Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204175159",
+      "id_gs": "Ac_XdKkAAAAJ"
+    },
+    {
+      "nip": "41277026108",
+      "nama_dosen": "Rauf Fauzan M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204185816",
+      "id_gs": "SM9FIDEAAAAJ"
+    },
+    {
+      "nip": "41277026109",
+      "nama_dosen": "Annisa Paramitha Fadillah S.Kom., M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204176608",
+      "id_gs": "EjS10DYAAAAJ"
+    },
+    {
+      "nip": "41277026111",
+      "nama_dosen": "Myrna Dwi Rahmatya S.Kom., M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204184190",
+      "id_gs": "cOyOUNIAAAAJ"
+    },
+    {
+      "nip": "41277026111",
+      "nama_dosen": "Myrna Dwi Rahmatya S.Kom., M.Kom.",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204184190",
+      "id_gs": "cOyOUNIAAAAJ"
+    },
+    {
+      "nip": "41277026112",
+      "nama_dosen": "Leonardi Paris Hasugian S.Kom., M.Kom., M.Eng.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57201673507",
+      "id_gs": "c68owHEAAAAJ"
+    },
+    {
+      "nip": "41277026113",
+      "nama_dosen": "Rangga Sidik S.Kom., M.Kom., M.Eng",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57200415063",
+      "id_gs": "yURLUXgAAAAJ"
+    },
+    {
+      "nip": "41277026114",
+      "nama_dosen": "Mia Fitriawati S.Kom.,M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204175810",
+      "id_gs": "najcg-sAAAAJ"
+    },
+    {
+      "nip": "41277026115",
+      "nama_dosen": "Nizar Rabbi Radliya S.Kom., M.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57207821904",
+      "id_gs": "729ZGD4AAAAJ"
+    },
+    {
+      "nip": "41277026116",
+      "nama_dosen": "Rani Puspita Dhaniawaty S. Kom., M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204178882",
+      "id_gs": "TruzLF0AAAAJ"
+    },
+    {
+      "nip": "41277026117",
+      "nama_dosen": "Erna Susilawati SS.,MM.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": "57193694289",
+      "id_gs": "2Mm5P4QAAAAJ"
+    },
+    {
+      "nip": "41277026118",
+      "nama_dosen": "Angga Friyanto S.Kom., M.T.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "elkoEtgAAAAJ"
+    },
+    {
+      "nip": "41277026118",
+      "nama_dosen": "Angga Friyanto S.Kom., M.T.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "elkoEtgAAAAJ"
+    },
+    {
+      "nip": "41277026119",
+      "nama_dosen": "Agus Nursikuwagus MT.,MM.,MOS.,MTA",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57194782786",
+      "id_gs": "hm8OIboAAAAJ"
+    },
+    {
+      "nip": "41277026124",
+      "nama_dosen": "Ferry Stephanus Suwita S.Kom., M.T.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": "UXRA6BEAAAAJ"
+    },
+    {
+      "nip": "41277026125",
+      "nama_dosen": "Dr Nina Kurnia Hikmawati SE.,MM.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277026126",
+      "nama_dosen": "Yudistira Soegoto S.Kom., M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41277067001",
+      "nama_dosen": "Supriyati S.E., M.Si, Ak. CA., ACP",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57211505545",
+      "id_gs": "e0q3P-8AAAAJ"
+    },
+    {
+      "nip": "41277067002",
+      "nama_dosen": "Dony Waluya Firdaus S.E., M.Si",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204185646",
+      "id_gs": "csM0I6UAAAAJ"
+    },
+    {
+      "nip": "41277067003",
+      "nama_dosen": "Rio Yunanto S.Kom., M.T.",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "53265520300",
+      "id_gs": "QQTV2nEAAAAJ"
+    },
+    {
+      "nip": "41277067004",
+      "nama_dosen": "Hery Dwi Yulianto S.T., M.Kom",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204188055",
+      "id_gs": "exAgapMAAAAJ"
+    },
+    {
+      "nip": "41277067007",
+      "nama_dosen": "Apriani Puti Purfini S.Kom.,M.T.",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": "57204180755",
+      "id_gs": "am8EQTQAAAAJ"
+    },
+    {
+      "nip": "41277067008",
+      "nama_dosen": "Dimas Widyasastrena M.T.,S.Si",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880153",
+      "nama_dosen": "Ahmad Iskandar Z SE., MBA.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880181",
+      "nama_dosen": "Dr. Ir. Tri Utomo Wiganarto MM",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880183",
+      "nama_dosen": "Dr. Ir. H. Iman Santoso SE.,MM., MBA.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880208",
+      "nama_dosen": "Mulyadi SE.,MM.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880305",
+      "nama_dosen": "Teni Maryatin M.Pd.",
+      "prodi": "Sastra Jepang",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880321",
+      "nama_dosen": "Robi Tanzil Ganefi S.Kom.,M.Kom.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880426",
+      "nama_dosen": "Yulie Indriani S.S.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880428",
+      "nama_dosen": "Anggi Cipta Lestari S.Kom., M.Kom.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880505",
+      "nama_dosen": "Melani Karlina SE.,MM.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880665",
+      "nama_dosen": "Dr. H. Eddy Syarif M.Si",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880772",
+      "nama_dosen": "Hendra Abubakar SE., M.Si.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880789",
+      "nama_dosen": "Dwi Husiano Mangindaan S.E., M.Ak., Ak., CA., B",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": "x"
+    },
+    {
+      "nip": "41278880849",
+      "nama_dosen": "Laras Laila Lestari S.T., M.T., M.Sc.",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880850",
+      "nama_dosen": "Linda Aisyah ST., MT.",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880858",
+      "nama_dosen": "Yoga Satya S.T., M.T.",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880931",
+      "nama_dosen": "Rofi Firdaus S.Kom., M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880932",
+      "nama_dosen": "Dra. Madihah Bajrie M.I.Kom.",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880934",
+      "nama_dosen": "Hilzan Ardan Febrianto S.Kom., M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880936",
+      "nama_dosen": "Dewan Rahadyan S.Kom., M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880937",
+      "nama_dosen": "Agit Mahendra Putra S.Kom., M.Kom.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41278880971",
+      "nama_dosen": "Maya Hermawati S.Kom., M.Kom.",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990001",
+      "nama_dosen": "Aang Junaedi S.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990002",
+      "nama_dosen": "Acep Iwan Hamdani ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990003",
+      "nama_dosen": "Adam Galih Gumilar S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990004",
+      "nama_dosen": "Addy Wibowo ",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990005",
+      "nama_dosen": "Adhreza Brahma S.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990006",
+      "nama_dosen": "Adi Sunarjo S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990007",
+      "nama_dosen": "Aditya Katily ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990008",
+      "nama_dosen": "Agus Mahendra Harianto ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990009",
+      "nama_dosen": "Agus Malik Ibrahim S.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990010",
+      "nama_dosen": "Ahadiat Joedawinata Drs, Dr, M.Sn",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990011",
+      "nama_dosen": "Ahmad Fahruzi ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990012",
+      "nama_dosen": "Ahmad Sulaiman S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990013",
+      "nama_dosen": "Ahmad Taufik S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990014",
+      "nama_dosen": "Alex Breznev Pandia S.E.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990015",
+      "nama_dosen": "Alfi Octavia Putri S.Ds",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990016",
+      "nama_dosen": "Ali Zainal Abidin S.E., M. Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990017",
+      "nama_dosen": "Alifiana Rangga M S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990018",
+      "nama_dosen": "Ananda Rosetika S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990019",
+      "nama_dosen": "Ananto Pratikno S.T, M.T",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990020",
+      "nama_dosen": "Andrie Mohamad Lukman Hakim S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990021",
+      "nama_dosen": "Andry Ardiansyah ",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990022",
+      "nama_dosen": "Angga Nur Hidayah S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990024",
+      "nama_dosen": "Anita Herdini S.E.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990025",
+      "nama_dosen": "Ari Wibowo ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990026",
+      "nama_dosen": "Arian Pratomo ",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990028",
+      "nama_dosen": "Arief Rizki Fadillah S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990029",
+      "nama_dosen": "Arief Saefurrohman S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990030",
+      "nama_dosen": "Arni Purwanti SE.,MM",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990031",
+      "nama_dosen": "Aryati Dewi Andriani S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990032",
+      "nama_dosen": "Astri Budi Yusniati S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990033",
+      "nama_dosen": "Astria Ardani Susanty R S.E.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990034",
+      "nama_dosen": "Bambang Dwi Nugroho S.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990035",
+      "nama_dosen": "Bambang Prayetno S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990036",
+      "nama_dosen": "Bambang Santoso",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990037",
+      "nama_dosen": "Bangun Mahardhika S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990038",
+      "nama_dosen": "Bayu Meildy Pertama S.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990039",
+      "nama_dosen": "Bonih Maulana ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990040",
+      "nama_dosen": "Budi Santoso S.E., M. Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990041",
+      "nama_dosen": "Chandra Prasetyo S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990043",
+      "nama_dosen": "Christina Putri Purwiyati S.Sos",
+      "prodi": "Sekretaris Eksekutif",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990044",
+      "nama_dosen": "Dadan Kusumawardhana SE., M.Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990045",
+      "nama_dosen": "Dafie Buthlan Noorrahman ",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990046",
+      "nama_dosen": "Danang Harito Wibowo ",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990047",
+      "nama_dosen": "Danu Dwi Sanjoyo S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990048",
+      "nama_dosen": "Dasuki S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990051",
+      "nama_dosen": "Demaz Fauzi Hadi S.I.Kom",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990052",
+      "nama_dosen": "Deni Cahyadi S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990053",
+      "nama_dosen": "Desi Arisandi S.Ds",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990054",
+      "nama_dosen": "Dewi Cahyani S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990055",
+      "nama_dosen": "Dewi Mardian S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990056",
+      "nama_dosen": "Dian Gita Utami S.T",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990057",
+      "nama_dosen": "Dian Setio Purwanty M.M",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990058",
+      "nama_dosen": "Dicky Abdurrahman S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990059",
+      "nama_dosen": "Dikky Kurnia ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990060",
+      "nama_dosen": "Diky Suhandani S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990061",
+      "nama_dosen": "Dimas Prasetyo S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990062",
+      "nama_dosen": "Dina Sofiana S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990063",
+      "nama_dosen": "Dinita Melani Sari Masoedy ",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990064",
+      "nama_dosen": "Ditha Prasanti M.I. Kom.",
+      "prodi": "Sekretaris Eksekutif",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990064",
+      "nama_dosen": "Ditha Prasanti M.I. Kom.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990065",
+      "nama_dosen": "Dodi Chaerul Hardy S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990066",
+      "nama_dosen": "Donny Sanjaya S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990067",
+      "nama_dosen": "Dwi Wahyudati S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990068",
+      "nama_dosen": "Dyah Puspa Rahayu S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990069",
+      "nama_dosen": "Edy Wijaya ",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990070",
+      "nama_dosen": "Efraim Theofilus Suryanta S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990071",
+      "nama_dosen": "Ekky Patria Kencana S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990072",
+      "nama_dosen": "Eko Setiyanto S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990073",
+      "nama_dosen": "Eko Yudhi Pramono S.Kom.,MT.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990074",
+      "nama_dosen": "Elvijn May Hasibuan S.E., M.M.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990075",
+      "nama_dosen": "Emalia Fitrianty S.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990076",
+      "nama_dosen": "Enjang Koswara S.E.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990077",
+      "nama_dosen": "Erfin Gustaman S.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990078",
+      "nama_dosen": "Erik Sarip Hidayat Tuloh S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990079",
+      "nama_dosen": "Eris Herdis S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990080",
+      "nama_dosen": "Erlangga S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990081",
+      "nama_dosen": "Erwin Sapari S.Si",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990082",
+      "nama_dosen": "Ery Rahmat SE., M.Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990083",
+      "nama_dosen": "Prof. Dr. Eng. Estiko Rijanto ",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990084",
+      "nama_dosen": "Fahd Yudhanegoro S.E.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990085",
+      "nama_dosen": "Fahrurozy S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990086",
+      "nama_dosen": "Fajar Ramadhan ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990087",
+      "nama_dosen": "Farid Komarudin S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990088",
+      "nama_dosen": "Faridah Awani S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990089",
+      "nama_dosen": "Firman Budiman S.Ds",
+      "prodi": "Desain Grafis",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990091",
+      "nama_dosen": "Firman Perkasa Yudha ",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990092",
+      "nama_dosen": "Fitri Komalasari S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990093",
+      "nama_dosen": "Fitriandani Solihin S.E.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990094",
+      "nama_dosen": "Fitriani Nurlaila S.E.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990095",
+      "nama_dosen": "Fransiskus Sari Putra Sinuraya S.E., M.Si",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990095",
+      "nama_dosen": "Fransiskus Sari Putra Sinuraya S.E., M.Si",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990096",
+      "nama_dosen": "Fuji Astuti S.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990097",
+      "nama_dosen": "Galih Tias Rizal M ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990098",
+      "nama_dosen": "Ghani Angga Prawira S.E.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990099",
+      "nama_dosen": "H. Rizalul Kalam SE.,M.SE.,Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990100",
+      "nama_dosen": "Hadi Rochyadi S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990101",
+      "nama_dosen": "Hamdan Sahlan S.E.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990102",
+      "nama_dosen": "Hamdani Kartiwa S.E.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990104",
+      "nama_dosen": "Hari Purnomo S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990105",
+      "nama_dosen": "Hariyanti Agustina ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990106",
+      "nama_dosen": "Harnis Antanto P. Gultom S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990107",
+      "nama_dosen": "Hary Wibowo S.T",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990108",
+      "nama_dosen": "Hendri Mulyadi SE., MM",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990110",
+      "nama_dosen": "Henky Zamzami ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990111",
+      "nama_dosen": "Herien Douglas S.E., M.Si",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990113",
+      "nama_dosen": "I Made Andhika S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990115",
+      "nama_dosen": "Iman Santoso Chasan Doerjat S.E., M.M.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990116",
+      "nama_dosen": "Iman Sumargono ",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990118",
+      "nama_dosen": "Indira Fani Ayu S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990119",
+      "nama_dosen": "Intan Noorchairani S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990120",
+      "nama_dosen": "Ipung Priambodo SE., MM.",
+      "prodi": "Komputerisasi Akuntansi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990121",
+      "nama_dosen": "Irfan Nurul Hamdani S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990123",
+      "nama_dosen": "Irma Wibiyanti S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990124",
+      "nama_dosen": "Irman Maulana Yusup S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990125",
+      "nama_dosen": "Iva Yustisia Supyan M.Si",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990126",
+      "nama_dosen": "Iwan Nugraha S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990127",
+      "nama_dosen": "Jahidi S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990128",
+      "nama_dosen": "Jayanthi Octavia S.E, M.M",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990129",
+      "nama_dosen": "Jayanti Rahayu S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990130",
+      "nama_dosen": "Juan Kasma Se., M.Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990131",
+      "nama_dosen": "Jujun Juharsa S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990132",
+      "nama_dosen": "Juli Abdul Ghafur S.H.",
+      "prodi": "Ilmu Hukum",
+      "fak": "HUKUM",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990133",
+      "nama_dosen": "Kandy Dewi S.Kom",
+      "prodi": "Public Relation",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990134",
+      "nama_dosen": "Dra. Koes Heryatin M.Si",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990135",
+      "nama_dosen": "Komarulloh S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990136",
+      "nama_dosen": "Kustiawan M.Si, S.E.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990137",
+      "nama_dosen": "Lala Lasmawati S.IP",
+      "prodi": "Public Relation",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990140",
+      "nama_dosen": "Lilis Yuniarti ",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990141",
+      "nama_dosen": "Lukman Firmansyah S.E.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990142",
+      "nama_dosen": "Maghdalena Sephty Prihantining S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990143",
+      "nama_dosen": "Maskie Zusane Oematan S.Kom",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990144",
+      "nama_dosen": "Mastur Jaelani S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990145",
+      "nama_dosen": "Maya Lisa Bahar S.Kom, M.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990146",
+      "nama_dosen": "Mhd Yusuf S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990147",
+      "nama_dosen": "Mhd. Yusuf ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990149",
+      "nama_dosen": "Mohammad Guntur S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990150",
+      "nama_dosen": "Muhamad Apriza Muttaqien ",
+      "prodi": "Magister Sistem Informasi",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990151",
+      "nama_dosen": "Muhamad Ramdhan ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990152",
+      "nama_dosen": "Muhammad Eko Utomo S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990153",
+      "nama_dosen": "Muhammad Sidhi Nugroho SE., M.Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990154",
+      "nama_dosen": "Muhammad Yudi Suhairi S.Sn., M.Ds.",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990155",
+      "nama_dosen": "Munar Hudaya Al Barr S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990157",
+      "nama_dosen": "Naufal Fikar Abduh S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990158",
+      "nama_dosen": "Neng Lina Nur Intihani S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990159",
+      "nama_dosen": "Nico Reinaldo Yohanes S.I.Kom",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990160",
+      "nama_dosen": "Nira Purnama Hadiatina S.E.",
+      "prodi": "Public Relation",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990161",
+      "nama_dosen": "Nisa Bequimaniar Rustriati SE.,MM.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990162",
+      "nama_dosen": "Nisa Sariningsih S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990163",
+      "nama_dosen": "Nita Widawati S.Si",
+      "prodi": "Teknik Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990164",
+      "nama_dosen": "Nita Yunita S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990166",
+      "nama_dosen": "Novi Nurhayati S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990167",
+      "nama_dosen": "Nurdiana Rosaria Rezeki S.I.Kom",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990168",
+      "nama_dosen": "Nursonah Nopirahayu S.IP, M.M.",
+      "prodi": "Ilmu Pemerintahan",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990169",
+      "nama_dosen": "Oki Achmad Ismail ",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990170",
+      "nama_dosen": "Panca Yusyahnonta ",
+      "prodi": "Perencanaan Wilayah dan Kota",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990171",
+      "nama_dosen": "Paulus Berry Sundara S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990172",
+      "nama_dosen": "Perlando Lubis M.Pd, S.S.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990173",
+      "nama_dosen": "Predari Siswayani S.S.",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990174",
+      "nama_dosen": "Purnomo Subagio S.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990175",
+      "nama_dosen": "Puspita Nurul Sabrina S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990176",
+      "nama_dosen": "Putu Gede Ariwijaya Satya Dhar S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990177",
+      "nama_dosen": "R Diena Nurul Hikmah ",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990178",
+      "nama_dosen": "R. Andri Priyatna P. S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990179",
+      "nama_dosen": "R. Fajar Widiarrachman S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990182",
+      "nama_dosen": "Rani Adityanti Pradanagara S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990184",
+      "nama_dosen": "Razief Dermawan ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990185",
+      "nama_dosen": "Rena Rahmanegoro S.E.",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990186",
+      "nama_dosen": "Renaldi S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990187",
+      "nama_dosen": "Rendi Resmawandi S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990188",
+      "nama_dosen": "Rian Hidayat S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990190",
+      "nama_dosen": "Ricky Lesmana S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990191",
+      "nama_dosen": "Ridwan Aripin ",
+      "prodi": "Sastra Inggris",
+      "fak": "ILMU BUDAYA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990192",
+      "nama_dosen": "Ridwan Fariz ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990193",
+      "nama_dosen": "Rifan Ardianto S.E.",
+      "prodi": "Keuangan dan Perbankan",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990194",
+      "nama_dosen": "Rika Oktavia S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990195",
+      "nama_dosen": "Rima Sri Tresnayanti S.Ds",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990196",
+      "nama_dosen": "Rina Kurniati S.Kom, M.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990197",
+      "nama_dosen": "Rina Siti Romlah S.IP",
+      "prodi": "Public Relation",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990198",
+      "nama_dosen": "Rini Septiani Sukanda M.Si",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990199",
+      "nama_dosen": "Ririn Saprina ",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990200",
+      "nama_dosen": "Risris Roviana ",
+      "prodi": "Arsitektur",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990201",
+      "nama_dosen": "Riyan Verdiyansah S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990202",
+      "nama_dosen": "Riyani S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990204",
+      "nama_dosen": "Roni Aditya O S.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990205",
+      "nama_dosen": "Roni Sapto Purwandoko S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990206",
+      "nama_dosen": "Ronny Hidayat S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990207",
+      "nama_dosen": "Rosgandika Mulyana Ir",
+      "prodi": "Manajemen",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990209",
+      "nama_dosen": "Setia Surya Kusumah M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990210",
+      "nama_dosen": "Seto Wisnubroto S.T",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990211",
+      "nama_dosen": "Shelly Novianti Tamaya S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990212",
+      "nama_dosen": "Sheni Wahyuni ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990213",
+      "nama_dosen": "Sita Dewi Prahastini S.Kom, M.T",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990214",
+      "nama_dosen": "Siti Fatimah M.Si.",
+      "prodi": "Ilmu Komunikasi",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990215",
+      "nama_dosen": "Siti Fiqriyah S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990216",
+      "nama_dosen": "Sitta Nur Alifah ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990217",
+      "nama_dosen": "Sitta Pamungkassari S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990218",
+      "nama_dosen": "Somantri Sanjaya S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990219",
+      "nama_dosen": "Sopian Alfariz S.Kom",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990220",
+      "nama_dosen": "St Farah Indriani S.Ds",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990221",
+      "nama_dosen": "Subarna Drs",
+      "prodi": "Magister Desain",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990222",
+      "nama_dosen": "Suyuto S.T",
+      "prodi": "Teknik Elektro",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990223",
+      "nama_dosen": "Syaiful Amri S.Kom",
+      "prodi": "Manajemen Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990224",
+      "nama_dosen": "Syariefudin Bashori S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990225",
+      "nama_dosen": "Syarip Yunus M.Ds",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990226",
+      "nama_dosen": "Syarippudin S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990227",
+      "nama_dosen": "Tasrikin S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990228",
+      "nama_dosen": "Tata Kartasudjana ",
+      "prodi": "Desain Komunikasi Visual",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990229",
+      "nama_dosen": "Tri Utomo Wiganarto M.M., Ir, Dr",
+      "prodi": "Magister Manajemen",
+      "fak": "PASCA SARJANA",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990230",
+      "nama_dosen": "Triastuti Wahyu Utami ",
+      "prodi": "Sistem Komputer",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990231",
+      "nama_dosen": "Tris Wahyudi ",
+      "prodi": "Hubungan Internasional",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990232",
+      "nama_dosen": "Tubagus Drajat Sujai S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990233",
+      "nama_dosen": "Ukun Sastraprawira Ir",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990234",
+      "nama_dosen": "Wahyu Widodo Ak., M.Si.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990235",
+      "nama_dosen": "Wawan Sutiawan S.E.",
+      "prodi": "Public Relation",
+      "fak": "SOSPOL",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990236",
+      "nama_dosen": "Wineu Ferdiani S.E.",
+      "prodi": "Manajemen Pemasaran",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990237",
+      "nama_dosen": "Yandi Rahmadi Daud ",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990238",
+      "nama_dosen": "Yoesoep Noor Amin S.Ds",
+      "prodi": "Desain Interior",
+      "fak": "DESAIN",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990239",
+      "nama_dosen": "Yogi Prayoga S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990240",
+      "nama_dosen": "Yohanes Jehadu SE., M.Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990241",
+      "nama_dosen": "Yon Nusdal SE.,M.BA.,Ak.",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990242",
+      "nama_dosen": "Yudhie Kurnia Moeljanto M.T, S.T",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990243",
+      "nama_dosen": "Yuke Ayu Yuliantine S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990244",
+      "nama_dosen": "Yuliayany S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990245",
+      "nama_dosen": "Yulin Tesha S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990246",
+      "nama_dosen": "Yuni Riswanti SE.,Mm",
+      "prodi": "Akuntansi",
+      "fak": "EKONOMI & BISNIS",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990247",
+      "nama_dosen": "Raden Sofian Bahri S.Kom",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990256",
+      "nama_dosen": "Munawar",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "41279990260",
+      "nama_dosen": "Ayu Pratiwi Ulfah S.Hum.,M.Hum.",
+      "prodi": "Sistem Informasi",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "MGG000404",
+      "nama_dosen": "Muhammad Riza",
+      "prodi": "Teknik Sipil",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "NIDN003",
+      "nama_dosen": "Sri Angraini Surianto",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "NIDN004",
+      "nama_dosen": "TAUPIK HIDAYAT",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "nidn005",
+      "nama_dosen": "Erick Wijaya",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    },
+    {
+      "nip": "nidn013",
+      "nama_dosen": "Resty Novianty",
+      "prodi": "Teknik Informatika",
+      "fak": "TEKNIK & ILMU KOMPUTER",
+      "id_scopus": null,
+      "id_gs": null
+    }
+  ]
+}
