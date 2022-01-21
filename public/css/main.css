@@ -47,9 +47,3 @@
 .header .actions button {
   margin-left: 1rem;
 }
-
-.table {
-  padding: 2rem;
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-}

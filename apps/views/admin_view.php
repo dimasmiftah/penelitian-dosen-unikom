@@ -1,8 +1,8 @@
 <?php require('partials/header.php'); ?>
-<div class="wrapper">
+<div>
       <div class="header">
         <form action="" class="filter">
-          <label class="bm-input-label" for="filter">Filter</label>
+          <!-- <label class="bm-input-label" for="filter">Filter</label>
           <div class="bm-input">
             <input
               type="text"
@@ -10,7 +10,7 @@
               class="bm-input__field"
               placeholder="Kata kunci"
             />
-          </div>
+          </div> -->
         </form>
         <div class="actions">
           <button type="button" class="bm-btn">
@@ -125,7 +125,7 @@
       </div>
 
       <div class="table">
-        <table class="bm-table" style="width: 100%">
+        <table class="bm-table" style="width: 100%" id="table_author">
           <thead>
             <th>ID Scopus</th>
             <th>NIP</th>
@@ -155,22 +155,32 @@
         </table>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+
+
     <script>
-      fetch(
-        'https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=',
-        {
-          mode: 'no-cors',
-          credentials: 'include',
-        }
-      )
-        .then(function (response) {
-          console.log(response);
-        })
-        .catch(function (error) {
-          console.log('Looks like there was a problem: ', error);
-        });
+      $(document).ready( function () {
+          $('#table_author').DataTable({
+            "pageLength": 5,
+            dom: 'Bfrtip',
+            buttons: [
+                'excel',
+            ]
+          })
+      } );
+      // fetch(
+      //   'https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=',
+      //   {
+      //     mode: 'no-cors',
+      //     credentials: 'include',
+      //   }
+      // )
+      //   .then(function (response) {
+      //     console.log(response);
+      //   })
+      //   .catch(function (error) {
+      //     console.log('Looks like there was a problem: ', error);
+      //   });
     </script>
   </body>
 </html>

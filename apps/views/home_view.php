@@ -64,6 +64,7 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
 
 
 
+
     const myChart2 = new Chart(ctx2, {
       type: 'bar',
       data: {
