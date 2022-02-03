@@ -11,7 +11,7 @@
         <span class="bm-btn__label">Ambil Data Publikasi</span>
       </button>
 
-      <a rel="modal:open" href="#contoh_modal">
+      <a rel="modal:open" href="#find_author_modal">
         <button type="button" class="bm-btn">
           <span class="bm-btn__icon">
             <i class="fas fa-plus"></i>
@@ -22,12 +22,42 @@
     </div>
   </div>
 
-  <div class="bm-modal bm-modal--scrollable" id="contoh_modal" role="dialog" aria-modal="true" aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+  <div class="bm-modal bm-modal--scrollable" id="find_author_modal" role="dialog" aria-modal="true" aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+    <div class="bm-modal__header">
+      <h5 class="bm-modal__title">Cari Dosen</h5>
+      <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
+        <span class="bm-modal__icon-close"></span>
+        <span class="bm-sr-only">Tutup</span>
+      </a>
+    </div>
+
+    <div class="bm-modal__body">
+      <form action="">
+        <label class="bm-input-label" for="id_scopus">NIP</label>
+        <div class="bm-input">
+          <input type="text" id="id_scopus" class="bm-input__field" placeholder="NIP dosen" />
+        </div>
+      </form>
+    </div>
+
+    <div class="bm-modal__footer">
+      <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
+        <span class="bm-btn__label">Tutup</span>
+      </a>
+      <a rel="modal:open" href="#add_author_modal">
+        <button type="button" class="bm-btn">
+          <span class="bm-btn__label">Cari</span>
+        </button>
+      </a>
+    </div>
+  </div>
+
+  <div class="bm-modal bm-modal--scrollable" id="add_author_modal" role="dialog" aria-modal="true" aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
     <div class="bm-modal__header">
       <h5 class="bm-modal__title">Tambah Data</h5>
       <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
         <span class="bm-modal__icon-close"></span>
-        <span class="bm-sr-only">Close</span>
+        <span class="bm-sr-only">Tutup</span>
       </a>
     </div>
 
@@ -39,9 +69,9 @@
         </div>
 
         <br />
-        <label class="bm-input-label" for="id_scopus">NIK</label>
+        <label class="bm-input-label" for="id_scopus">NIP</label>
         <div class="bm-input">
-          <input type="text" id="id_scopus" class="bm-input__field" placeholder="NIK dosen" />
+          <input type="text" id="id_scopus" class="bm-input__field" placeholder="NIP dosen" disabled />
         </div>
 
         <br />
@@ -66,10 +96,10 @@
 
     <div class="bm-modal__footer">
       <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
-        <span class="bm-btn__label">Close</span>
+        <span class="bm-btn__label">Tutup</span>
       </a>
       <button type="button" class="bm-btn">
-        <span class="bm-btn__label">Save</span>
+        <span class="bm-btn__label">Simpan</span>
       </button>
     </div>
   </div>
@@ -115,19 +145,6 @@
       ]
     })
   });
-  // fetch(
-  //   'https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=',
-  //   {
-  //     mode: 'no-cors',
-  //     credentials: 'include',
-  //   }
-  // )
-  //   .then(function (response) {
-  //     console.log(response);
-  //   })
-  //   .catch(function (error) {
-  //     console.log('Looks like there was a problem: ', error);
-  //   });
 </script>
 </body>
 
