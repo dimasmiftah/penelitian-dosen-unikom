@@ -125,7 +125,6 @@
             <td><?php echo $key->prodi; ?></td>
             <td><?php echo $key->createAt; ?></td>
             <td>
-              <a href="/" class="bm-link">Lihat Detail</a>&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="/" class="bm-link">Hapus</a>
             </td>
           </tr>
