@@ -27,11 +27,11 @@ class AuthorController extends Controller
 	{
 		// echo "ini controller home";
 		$data = [
-				"title" => "Admin",
-				"authors" => model("Author")->all(),
+			"title" => "Admin",
+			"authors" => model("Author")->all(),
 		];
-		view("admin_view",$data);
-		//$this->view("admin_view", $data);
+		view("author_view", $data);
+		//$this->view("author_view", $data);
 	}
 
 	/**
