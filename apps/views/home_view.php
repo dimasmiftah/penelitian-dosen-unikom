@@ -2,12 +2,8 @@
 
 use MiniMvc\Apps\Core\Bootstraping\Security;
 ?>
-<!DOCTYPE html>
-<html lang="en">
 <?php require('partials/header.php'); ?>
-
-<body>
-  <div class="flex">
+<div class="flex">
     <div class="charts">
       <div class="chart-container item1" style="position: relative; height: 40vh; width: 40vw">
         <canvas id="myChart1"></canvas>
@@ -173,4 +169,5 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
       },
     });
   </script>
-  <?php require('partials/footer.php'); ?>
+</body>
+</html>
