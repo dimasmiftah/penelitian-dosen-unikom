@@ -9,12 +9,16 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
       <canvas id="myChart1"></canvas>
     </div>
     <div class="chart-container item2" style="position: relative; height: 40vh; width: 53vw">
-      <canvas id="myChart2"></canvas>
+      <canvas id="myChart2">
+      </canvas>
     </div>
     <div class="chart-container item3" style="position: relative; height: 40vh">
       <canvas id="myChart3"></canvas>
     </div>
   </div>
+
+  <a href="/detail/major" class="detail_url major">Lihat Selengkapnya</a>
+  <a href="/detail/major" class="detail_url lecturer">Lihat Selengkapnya</a>
 </div>
 <script>
   const ctx1 = document.getElementById('myChart1');

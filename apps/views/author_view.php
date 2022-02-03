@@ -1,7 +1,7 @@
 <?php require('partials/header.php'); ?>
 <div class="author">
   <div class="header">
-    <div></div>
+    <h3 class='title'>Data Penulis Scopus</h3>
     <div class="actions">
       <button type="button" class="bm-btn">
         <span class="bm-btn__icon">

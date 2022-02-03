@@ -8,40 +8,40 @@ use \Bramus\Router\Router;
  * Documentasi Code Web
  * @author : nagara
  * -------------------------------------------------------------------------------
- * 
+ *
  *  untuk mengatur Route view yang diambil pada controller
  *  Route menggunakan library bramus/router
- * 
+ *
  * -------------------------------------------------------------------------------
- *  Example 
+ *  Example
  * -------------------------------------------------------------------------------
- * 
+ *
  * 	$router->get('/login', function () {
  *      // handle here
  *  	Routes::Routing('folder/controller', 'method');
  *  die;
  * 	});
- * 
+ *
  * 	$router->get('/news/{slug}', function ($slug) {
  * 		// handle here
  *  	Routes::Routing('folder/controller', 'method',[$slug]);
  *  die;
  * 	});
- * 
+ *
  * 	$router->get('/about', function () {
  * 		// handle here
  *  	Routes::Routing('controller', 'method');
  * 	die;
  * 	});
- * 
+ *
  * 	$router->get('/info', function () {
  * 		// handle here
  *  	phpinfo();
  *  die;
  * 	});
  * --------------------------------------------------------------------------------
- * 
- * 
+ *
+ *
  */
 
 // Create a Router object
@@ -66,9 +66,19 @@ $router->get('/', function () {
     Routes::Routing("DocumentController", "index"); # panggil controller
 });
 
-$router->get('/admin', function () {
+$router->get('/author', function () {
     //return view('Admin'); # langsung view
     Routes::Routing("AuthorController", "index"); # panggil controller
+});
+
+$router->get('/detail/major', function () {
+    return view('detail_major_view'); # langsung view
+    // Routes::Routing("AuthorController", "index"); # panggil controller
+});
+
+$router->get('/detail/lecturer', function () {
+    return view('detail_lecturer_view'); # langsung view
+    // Routes::Routing("AuthorController", "index"); # panggil controller
 });
 
 

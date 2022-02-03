@@ -62,12 +62,28 @@
   grid-area: bottom;
 }
 
+.home .detail_url {
+  position: absolute;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.home .detail_url.major{
+  top: 15.5%;
+  right: 5%;
+}
+
+.home .detail_url.lecturer{
+  bottom: 37%;
+  right: 5%;
+}
+
 .author {
   margin: 0 2rem;
   margin-top: 1rem;
 }
 
-.author .header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
