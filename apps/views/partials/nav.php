@@ -1,5 +1,5 @@
 <nav class="navbar wrapper">
-  <a href="/" class="logo">Publikasi Dosen UNIKOM</a>
+  <a href="/" class="logo">Publikasi UNIKOM</a>
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="/">Beranda</a>

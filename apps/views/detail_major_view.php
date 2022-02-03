@@ -1,14 +1,14 @@
 <?php require('partials/header.php'); ?>
 <div class="detail lecturer wrapper">
   <div class="header">
-    <h3 class='title'>Jumlah Publikasi dan Sitasi Program Studi</h3>
+    <h3 class='title'>Publikasi Program Studi</h3>
     <div class="actions">
     </div>
   </div>
 
   <div class="bm-modal bm-modal--scrollable" id="row_detail_modal" role="dialog" aria-modal="true" aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
     <div class="bm-modal__header">
-      <h5 class="bm-modal__title">Detail Penelitian Program Studi</h5>
+      <h5 class="bm-modal__title">Detail Publikasi Program Studi</h5>
       <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
         <span class="bm-modal__icon-close"></span>
         <span class="bm-sr-only">Tutup</span>
