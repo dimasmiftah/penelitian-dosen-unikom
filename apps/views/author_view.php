@@ -22,6 +22,29 @@
     </div>
   </div>
 
+  <div class="bm-modal bm-modal--scrollable" id="delete_author_modal" role="dialog" aria-modal="true" aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+    <div class="bm-modal__header">
+      <h5 class="bm-modal__title">Hapus Data</h5>
+      <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
+        <span class="bm-modal__icon-close"></span>
+        <span class="bm-sr-only">Tutup</span>
+      </a>
+    </div>
+
+    <div class="bm-modal__body">
+      <p>Apakah anda yakin ingin menghapus data penulis?</p>
+    </div>
+
+    <div class="bm-modal__footer">
+      <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
+        <span class="bm-btn__label">Batal</span>
+      </a>
+      <button type="button" class="bm-btn">
+        <span class="bm-btn__label">Hapus</span>
+      </button>
+    </div>
+  </div>
+
   <div class="bm-modal bm-modal--scrollable" id="find_author_modal" role="dialog" aria-modal="true" aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
     <div class="bm-modal__header">
       <h5 class="bm-modal__title">Cari Dosen</h5>
@@ -125,7 +148,7 @@
             <td><?php echo $key->prodi; ?></td>
             <td><?php echo $key->createAt; ?></td>
             <td>
-              <a href="/" class="bm-link">Hapus</a>
+              <a rel="modal:open" href="#delete_author_modal" class="bm-link">Hapus</a>
             </td>
           </tr>
         <?php endforeach; ?>
