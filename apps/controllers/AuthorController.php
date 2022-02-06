@@ -34,6 +34,20 @@ class AuthorController extends Controller
 		//$this->view("author_view", $data);
 	}
 
+	public static function cariDosen($slug)
+	{
+		$content =     file_get_contents("https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=");
+		$result  = json_decode($content);
+
+		foreach ($result->dosen as $key) {
+			if ($key->nip == $slug[0]) {
+				header('Content-type: application/json');
+				echo json_encode($key);
+			}
+		}
+		// code here show here
+	}
+
 	/**
 	 * method show
 	 * @param

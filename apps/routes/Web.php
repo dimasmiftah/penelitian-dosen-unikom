@@ -71,6 +71,11 @@ $router->get('/author', function () {
     Routes::Routing("AuthorController", "index"); # panggil controller
 });
 
+$router->get('/author/caridosen/{slug}', function ($slug) {
+    //return view('Admin'); # langsung view
+    Routes::Routing("AuthorController", "cariDosen",[$slug]); # panggil controller
+});
+
 $router->get('/detail/major', function () {
     return view('detail_major_view'); # langsung view
     // Routes::Routing("AuthorController", "index"); # panggil controller

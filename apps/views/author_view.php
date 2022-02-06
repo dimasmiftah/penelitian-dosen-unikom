@@ -56,9 +56,9 @@
 
     <div class="bm-modal__body">
       <form action="">
-        <label class="bm-input-label" for="id_scopus">NIP</label>
+        <label class="bm-input-label" for="nip">NIP</label>
         <div class="bm-input">
-          <input type="text" id="id_scopus" class="bm-input__field" placeholder="NIP dosen" />
+          <input type="text" id="nip" class="bm-input__field" placeholder="NIP dosen" />
         </div>
       </form>
     </div>
@@ -67,8 +67,8 @@
       <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
         <span class="bm-btn__label">Tutup</span>
       </a>
-      <a rel="modal:open" href="#add_author_modal">
-        <button type="button" class="bm-btn">
+      <a id="carinip" rel="modal:open" href="#add_author_modal">
+        <button type="button" class="bm-btn" onclick="cariDosen(document.getElementById('nip').value)">
           <span class="bm-btn__label">Cari</span>
         </button>
       </a>
@@ -92,15 +92,15 @@
         </div>
 
         <br />
-        <label class="bm-input-label" for="id_scopus">NIP</label>
+        <label class="bm-input-label" for="nip_user">NIP</label>
         <div class="bm-input">
-          <input type="text" id="id_scopus" class="bm-input__field" placeholder="NIP dosen" disabled />
+          <input type="text" id="nip_user" class="bm-input__field" placeholder="NIP dosen" disabled />
         </div>
 
         <br />
-        <label class="bm-input-label" for="nama">Nama</label>
+        <label class="bm-input-label" for="nama_dosen">Nama</label>
         <div class="bm-input">
-          <input type="text" id="nama" class="bm-input__field" placeholder="Nama lengkap dosen" disabled />
+          <input type="text" id="nama_dosen" class="bm-input__field" placeholder="Nama lengkap dosen" disabled />
         </div>
 
         <br />
@@ -149,6 +149,7 @@
             <td><?php echo $key->createAt; ?></td>
             <td>
               <a rel="modal:open" href="#delete_author_modal" class="bm-link">Hapus</a>
+              <a rel="modal:open" href="#add_author_modal" class="bm-link">Edit</a>
             </td>
           </tr>
         <?php endforeach; ?>
@@ -156,9 +157,11 @@
     </table>
   </div>
 </div>
-
 <script>
   $(document).ready(function() {
+    $("#fetch").click(function(event) {
+
+    })
     $('#table_author').DataTable({
       "pageLength": 10,
       dom: 'Bfrtip',
@@ -167,6 +170,16 @@
       ]
     })
   });
+
+  async function cariDosen(param) {
+    const obj = await fetch('<?php echo current_url(); ?>caridosen/' + param);
+    const data = await obj.json();
+    $('#nip_user').val(data['nip']);
+    $('#nama_dosen').val(data['nama_dosen'])
+    $('#fakultas').val(data['fak'])
+    $('#prodi').val(data['prodi'])
+    console.log(data);
+  }
 </script>
 </body>
 
