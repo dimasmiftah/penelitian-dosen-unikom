@@ -121,7 +121,7 @@
       <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
         <span class="bm-btn__label">Tutup</span>
       </a>
-      <button type="button" class="bm-btn">
+      <button type="button" class="bm-btn" id="btn_simpan" onClick="saveData()">
         <span class="bm-btn__label">Simpan</span>
       </button>
     </div>
@@ -173,9 +173,16 @@
 
   async function editSelect(param) {
     const heading = document.getElementById('headermodal');
+    const obj = await fetch('<?php echo current_url(); ?>select/' + param);
+    const data = await obj.json();
     heading.innerHTML = 'Edit Data';
     $('#nip_user').val(param);
-    console.log(param);
+    $('#nama_dosen').val(data.data['nama_dosen']);
+    $('#fakultas').val(data.data['fak']);
+    $('#prodi').val(data.data['prodi']);
+    $('#fakultas').val(data.data['fak'])
+    $('#prodi').val(data.data['prodi'])
+    $('#id_scopus').val(data.data['id_scopus'])
   }
 
   async function cariDosen(param) {
@@ -186,6 +193,10 @@
     $('#fakultas').val(data['fak'])
     $('#prodi').val(data['prodi'])
     console.log(data);
+  }
+
+  async function saveData(param) {
+
   }
 </script>
 </body>

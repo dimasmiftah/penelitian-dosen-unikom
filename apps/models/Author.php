@@ -15,7 +15,7 @@ use MiniMvc\Apps\Core\Bootstraping\Database;
 
 class Author
 {
-	private $table = 'Author';
+	private $table = 'author';
 	private $db;
 
 	public function __construct()
@@ -34,6 +34,7 @@ class Author
 		return $this->db->resultSetArray();
 	}
 
+
 	public function author_doc(){
 		$this->db->query('SELECT * from author_doc');
 		return $this->db->resultSetArray();
@@ -49,10 +50,10 @@ class Author
 	 * @author nagara
 	 * @return array
 	 */
-	public function select_where($value)
+	public function select_where($slug)
 	{
-		$this->db->query('SELECT * FROM ' . $this->table . ' WHERE column=:value');
-		$this->db->bind('value', $value);
+		$this->db->query('SELECT * FROM ' . $this->table . ' WHERE nip=:value');
+		$this->db->bind('value', $slug);
 		return $this->db->singleArray();
 	}
 

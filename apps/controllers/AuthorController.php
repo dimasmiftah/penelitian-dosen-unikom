@@ -48,7 +48,18 @@ class AuthorController extends Controller
 		// code here show here
 	}
 
-	public static function lecturerView(){
+	public static function dosenSelect($slug)
+	{
+		// echo "ini controller home";
+		$data = [
+			"data" => model("Author")->select_where($slug[0]),
+		];
+		header('Content-type: application/json');
+		echo json_encode($data);
+	}
+
+	public static function lecturerView()
+	{
 		$data = [
 			"title" => "Admin",
 			"authors" => model("Author")->all(),
