@@ -34,6 +34,11 @@ class Author
 		return $this->db->resultSetArray();
 	}
 
+	public function author_doc(){
+		$this->db->query('SELECT * from author_doc');
+		return $this->db->resultSetArray();
+	}
+
 	/**
 	 * method for get all data by condition
 	 * @author nagara

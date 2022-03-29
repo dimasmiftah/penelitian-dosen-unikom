@@ -75,6 +75,11 @@ class Documents
 		return $this->db->resultSetArray();
 	}
 
+	public function jumlahdocauthor($_id){
+		$this->db->query("SELECT Count(documents.scopus_id) as jumlah  FROM documents where scopus_id='$_id'");
+		return $this->db->resultSetArray();
+	}
+
 
 	/**
 	 * method for get all data by condition

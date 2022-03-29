@@ -7,7 +7,7 @@ use MiniMvc\Apps\Core\Bootstraping\Request;
 use app\controllers\email\mailer;
 use MiniMVC\System\Storage;
 
-class AuthorController extends Controller
+class DetailRecturerController extends Controller
 {
 
 	/**
@@ -25,13 +25,11 @@ class AuthorController extends Controller
 	 */
 	public static function index()
 	{
-		// echo "ini controller home";
 		$data = [
 			"title" => "Admin",
-			"authors" => model("Author")->all(),
+			"authors" => model("Author")->author_doc(),
 		];
-		view("author_view", $data);
-		//$this->view("author_view", $data);
+		view("detail_lecturer_view", $data);
 	}
 
 	public static function cariDosen($slug)
@@ -48,13 +46,6 @@ class AuthorController extends Controller
 		// code here show here
 	}
 
-	public static function lecturerView(){
-		$data = [
-			"title" => "Admin",
-			"authors" => model("Author")->all(),
-		];
-		view("detail_lecturer_view", $data);
-	}
 
 	/**
 	 * method show

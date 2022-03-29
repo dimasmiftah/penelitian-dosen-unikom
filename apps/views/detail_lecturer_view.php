@@ -84,114 +84,20 @@
         <th>Aksi</th>
       </thead>
       <tbody>
+      <?php foreach ($authors as $key) : ?>
         <tr>
-          <td>001</td>
-          <td>57204495477</td>
-          <td>Angga Setiyadi</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
+          <td><?php echo $key->id_scopus; ?></td>
+          <td><?php echo $key->nip; ?></td>
+          <td><?php echo $key->nama_dosen; ?></td>
+          <td><?php echo $key->fakultas; ?></td>
+          <td><?php echo $key->prodi; ?></td>
+          <td><?php echo $key->jumlah_doc; ?></td>
+          <td><?php echo $key->jumlah_sitasi; ?></td>
           <td>
             <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
           </td>
         </tr>
-        <tr>
-          <td>002</td>
-          <td>56411885900</td>
-          <td>Adam Mukharil Bachtiar</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>003</td>
-          <td>57204187129</td>
-          <td>Dian Dharmayanti</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>57204495477</td>
-          <td>Angga Setiyadi</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>002</td>
-          <td>56411885900</td>
-          <td>Adam Mukharil Bachtiar</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>003</td>
-          <td>57204187129</td>
-          <td>Dian Dharmayanti</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>57204495477</td>
-          <td>Angga Setiyadi</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>002</td>
-          <td>56411885900</td>
-          <td>Adam Mukharil Bachtiar</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>003</td>
-          <td>57204187129</td>
-          <td>Dian Dharmayanti</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>Teknik Informatika</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
+        <?php endforeach; ?>
       </tbody>
     </table>
   </div>

@@ -82,7 +82,7 @@ $router->get('/detail/major', function () {
 });
 
 $router->get('/detail/lecturer', function () {
-    return view('detail_lecturer_view'); # langsung view
+    Routes::Routing("DetailRecturerController", "index");
     // Routes::Routing("AuthorController", "index"); # panggil controller
 });
 
