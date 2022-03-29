@@ -18,7 +18,7 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
   </div>
 
   <a href="/detail/major" class="detail_url major">Lihat Selengkapnya</a>
-  <a href="/detail/major" class="detail_url lecturer">Lihat Selengkapnya</a>
+  <a href="/detail/lecturer" class="detail_url lecturer">Lihat Selengkapnya</a>
 </div>
 <script>
   const ctx1 = document.getElementById('myChart1');

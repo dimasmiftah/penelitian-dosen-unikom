@@ -86,6 +86,16 @@ $router->get('/detail/lecturer', function () {
     // Routes::Routing("AuthorController", "index"); # panggil controller
 });
 
+$router->get('/detail/lecturer/{slug}', function ($slug) {
+    //return view('Admin'); # langsung view
+    Routes::Routing("DetailRecturerController", "authorDoc",[$slug]); # panggil controller
+});
+
+$router->get('/detail/getalldoc', function () {
+    //return view('Admin'); # langsung view
+    Routes::Routing("DetailRecturerController", "getAll",[]); # panggil controller
+});
+
 
 
 // run route!

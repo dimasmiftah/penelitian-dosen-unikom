@@ -18,49 +18,11 @@
     <div class="bm-modal__body">
       <table class="bm-table" style="width: 100%" id="table_detail_lecturer_row">
         <thead>
-          <th>No</th>
           <th>Penulis</th>
           <th>Judul Publikasi</th>
           <th>Tahun</th>
           <th>Jumlah Sitasi</th>
         </thead>
-        <tbody>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>123</td>
-          </tr>
-        </tbody>
       </table>
     </div>
 
@@ -72,7 +34,7 @@
   </div>
 
   <div class="table">
-    <table class="bm-table" style="width: 100%" id="table_detail_lecturer">
+    <table class="bm-table" style="width: 100%" id="table_list_lecturer">
       <thead>
         <th>ID Scopus</th>
         <th>NIP</th>
@@ -84,19 +46,19 @@
         <th>Aksi</th>
       </thead>
       <tbody>
-      <?php foreach ($authors as $key) : ?>
-        <tr>
-          <td><?php echo $key->id_scopus; ?></td>
-          <td><?php echo $key->nip; ?></td>
-          <td><?php echo $key->nama_dosen; ?></td>
-          <td><?php echo $key->fakultas; ?></td>
-          <td><?php echo $key->prodi; ?></td>
-          <td><?php echo $key->jumlah_doc; ?></td>
-          <td><?php echo $key->jumlah_sitasi; ?></td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
+        <?php foreach ($authors as $key) : ?>
+          <tr>
+            <td><?php echo $key->id_scopus; ?></td>
+            <td><?php echo $key->nip; ?></td>
+            <td><?php echo $key->nama_dosen; ?></td>
+            <td><?php echo $key->fakultas; ?></td>
+            <td><?php echo $key->prodi; ?></td>
+            <td><?php echo $key->jumlah_doc; ?></td>
+            <td><?php echo $key->jumlah_sitasi; ?></td>
+            <td>
+              <a class="bm-link" rel="modal:open" href="#row_detail_modal" onclick="cariDosenDoc(<?php echo $key->nip; ?>)">Lihat Detail</a>
+            </td>
+          </tr>
         <?php endforeach; ?>
       </tbody>
     </table>
@@ -105,21 +67,46 @@
 
 <script>
   $(document).ready(function() {
-    $('#table_detail_lecturer').DataTable({
+    $('#table_list_lecturer').DataTable({
+      "order": [
+        [5, "desc"]
+      ],
       "pageLength": 10,
       dom: 'Bfrtip',
       buttons: [
         'csv', 'excel', 'pdf'
       ]
     })
+  });
+
+  async function cariDosenDoc(param) {
+
     $('#table_detail_lecturer_row').DataTable({
+      ajax: {
+        url: '<?php echo current_url(); ?>authordoc/' + param,
+        type: "GET",
+      },
+      columns: [{
+          data: "nama_dosen"
+        },
+        {
+          data: "tittle"
+        },
+        {
+          data: "coverDate"
+        },
+        {
+          data: "citiedCount"
+        },
+      ],
+      "bDestroy": true,
       "pageLength": 5,
       dom: 'Bfrtip',
       buttons: [
         'csv', 'excel', 'pdf'
       ]
-    })
-  });
+    });
+  }
 </script>
 </body>
 

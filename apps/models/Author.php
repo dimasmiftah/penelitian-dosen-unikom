@@ -39,6 +39,11 @@ class Author
 		return $this->db->resultSetArray();
 	}
 
+	public function detail_doc($param){
+		$this->db->query("select * from detail_doc where nip='$param'");
+		return $this->db->resultSetArray();
+	}
+
 	/**
 	 * method for get all data by condition
 	 * @author nagara

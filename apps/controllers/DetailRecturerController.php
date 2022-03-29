@@ -32,17 +32,27 @@ class DetailRecturerController extends Controller
 		view("detail_lecturer_view", $data);
 	}
 
-	public static function cariDosen($slug)
+	public static function authorDoc($slug)
 	{
-		$content =     file_get_contents("https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=");
-		$result  = json_decode($content);
+		
+		header('Content-type: application/json');
+		$data = [
+			"data" => model("Author")->detail_doc($slug[1]),
+		];
+		echo json_encode($data);
+		//echo json_encode($data);
+		// code here show here
+	}
 
-		foreach ($result->dosen as $key) {
-			if ($key->nip == $slug[0]) {
-				header('Content-type: application/json');
-				echo json_encode($key);
-			}
-		}
+	public static function getAll()
+	{
+		
+		header('Content-type: application/json');
+		$data = [
+			"data" => model("Author")->author_doc(),
+		];
+		echo json_encode($data);
+		//echo json_encode($data);
 		// code here show here
 	}
 

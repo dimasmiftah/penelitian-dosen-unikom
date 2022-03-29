@@ -77,7 +77,7 @@
 
   <div class="bm-modal bm-modal--scrollable" id="add_author_modal" role="dialog" aria-modal="true" aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
     <div class="bm-modal__header">
-      <h5 class="bm-modal__title">Tambah Data</h5>
+      <h5 class="bm-modal__title" id="headermodal">Tambah Data</h5>
       <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
         <span class="bm-modal__icon-close"></span>
         <span class="bm-sr-only">Tutup</span>
@@ -148,8 +148,8 @@
             <td><?php echo $key->prodi; ?></td>
             <td><?php echo $key->createAt; ?></td>
             <td>
-              <a rel="modal:open" href="#delete_author_modal" class="bm-link">Hapus</a>
-              <a rel="modal:open" href="#add_author_modal" class="bm-link">Edit</a>
+              <a rel="modal:open" href="#delete_author_modal" class="bm-link" >Hapus</a>
+              <a rel="modal:open" href="#add_author_modal" class="bm-link" onClick="editSelect(<?php echo $key->nip; ?>)">Edit</a>
             </td>
           </tr>
         <?php endforeach; ?>
@@ -170,6 +170,13 @@
       ]
     })
   });
+
+  async function editSelect(param) {
+    const heading = document.getElementById('headermodal');
+    heading.innerHTML = 'Edit Data';
+    $('#nip_user').val(param);
+    console.log(param);
+  }
 
   async function cariDosen(param) {
     const obj = await fetch('<?php echo current_url(); ?>caridosen/' + param);
