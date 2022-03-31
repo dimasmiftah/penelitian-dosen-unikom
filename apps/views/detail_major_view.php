@@ -26,7 +26,7 @@
           <th>Jumlah Sitasi</th>
         </thead>
         <tbody>
-          
+
         </tbody>
       </table>
     </div>
@@ -55,7 +55,7 @@
             <td><?php echo $key->jumlah_doc; ?></td>
             <td><?php echo $key->jumlah_sitasi; ?></td>
             <td>
-              <a class="bm-link" rel="modal:open" href="#row_detail_modal" >Lihat Detail</a>
+              <a class="bm-link" rel="modal:open" href="#row_detail_modal" >Detail</a>
             </td>
           </tr>
         <?php endforeach; ?>
