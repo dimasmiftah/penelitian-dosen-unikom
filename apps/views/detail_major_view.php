@@ -67,7 +67,7 @@
 <script>
   $(document).ready(function() {
     $('#table_detail_major').DataTable({
-      "pageLength": 10,
+      "pageLength": 14,
       dom: 'Bfrtip',
       buttons: [
         'csv', 'excel', 'pdf'
