@@ -95,7 +95,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -105,7 +105,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -115,7 +115,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -125,7 +125,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -135,7 +135,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -145,7 +145,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -155,7 +155,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -165,7 +165,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -175,7 +175,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
         <tr>
@@ -185,7 +185,7 @@
           <td>123</td>
           <td>123</td>
           <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
+            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Detail</a>
           </td>
         </tr>
       </tbody>
@@ -196,7 +196,7 @@
 <script>
   $(document).ready(function() {
     $('#table_detail_major').DataTable({
-      "pageLength": 10,
+      "pageLength": 14,
       dom: 'Bfrtip',
       buttons: [
         'csv', 'excel', 'pdf'

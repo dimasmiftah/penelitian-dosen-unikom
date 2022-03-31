@@ -148,7 +148,7 @@
             <td><?php echo $key->prodi; ?></td>
             <td><?php echo $key->createAt; ?></td>
             <td>
-              <a rel="modal:open" href="#delete_author_modal" class="bm-link" >Hapus</a>
+              <a rel="modal:open" href="#delete_author_modal" class="bm-link" >Hapus |</a>
               <a rel="modal:open" href="#add_author_modal" class="bm-link" onClick="editSelect(<?php echo $key->nip; ?>)">Edit</a>
             </td>
           </tr>
@@ -163,7 +163,7 @@
 
     })
     $('#table_author').DataTable({
-      "pageLength": 10,
+      "pageLength": 14,
       dom: 'Bfrtip',
       buttons: [
         'csv', 'excel', 'pdf'
