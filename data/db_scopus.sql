@@ -1398,12 +1398,23 @@ INSERT INTO `publisher` VALUES ('9781728180472', '2020 5th International Confere
 INSERT INTO `publisher` VALUES ('9781728199108', '2020 IEEE 10th International Conference on System Engineering and Technology, ICSET 2020 - Proceedings', 'Conference Proceeding', '2022-03-29 13:40:26', '2022-03-29 13:40:26', NULL);
 
 -- ----------------------------
+-- View structure for author_fakprodi
+-- ----------------------------
+DROP VIEW IF EXISTS `author_fakprodi`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `author_fakprodi` AS SELECT
+	author.nip,
+	author.fak,
+	author.prodi
+FROM
+	author ;
+
+-- ----------------------------
 -- View structure for author_doc
 -- ----------------------------
 DROP VIEW IF EXISTS `author_doc`;
 CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `author_doc` AS SELECT DISTINCT
-	author.id_scopus, 
-	author.nip, 
+	author.id_scopus,
+	author.nip,
 	author.nama_dosen,
 	(SELECT fak from author_fakprodi where nip=author.nip ORDER BY prodi ASC limit 1) as fakultas,
 	(SELECT prodi from author_fakprodi where nip=author.nip ORDER BY prodi ASC limit 1) as prodi,
@@ -1413,27 +1424,16 @@ FROM
 	author ;
 
 -- ----------------------------
--- View structure for author_fakprodi
--- ----------------------------
-DROP VIEW IF EXISTS `author_fakprodi`;
-CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `author_fakprodi` AS SELECT
-	author.nip, 
-	author.fak, 
-	author.prodi
-FROM
-	author ;
-
--- ----------------------------
 -- View structure for detail_doc
 -- ----------------------------
 DROP VIEW IF EXISTS `detail_doc`;
 CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `detail_doc` AS SELECT
-	documents.tittle, 
-	documents.coverDate, 
-	documents.citiedCount, 
-	documents.doi, 
-	author_doc.nama_dosen, 
-	author_doc.nip, 
+	documents.tittle,
+	documents.coverDate,
+	documents.citiedCount,
+	documents.doi,
+	author_doc.nama_dosen,
+	author_doc.nip,
 	author_doc.id_scopus
 FROM
 	documents,

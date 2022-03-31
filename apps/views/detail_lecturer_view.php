@@ -56,7 +56,7 @@
             <td><?php echo $key->jumlah_doc; ?></td>
             <td><?php echo $key->jumlah_sitasi; ?></td>
             <td>
-              <a class="bm-link" rel="modal:open" href="#row_detail_modal" onclick="cariDosenDoc(<?php echo $key->nip; ?>)">Lihat Detail</a>
+              <a class="bm-link" rel="modal:open" href="#row_detail_modal" onclick="cariDosenDoc(<?php echo $key->nip; ?>)">Detail</a>
             </td>
           </tr>
         <?php endforeach; ?>
@@ -71,7 +71,7 @@
       "order": [
         [5, "desc"]
       ],
-      "pageLength": 10,
+      "pageLength": 14,
       dom: 'Bfrtip',
       buttons: [
         'csv', 'excel', 'pdf'
