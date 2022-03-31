@@ -1442,16 +1442,16 @@ WHERE
 	author_doc.id_scopus = documents.scopus_id ;
 
 -- ----------------------------
--- View structure for docsitasi_prodi
--- ----------------------------
-DROP VIEW IF EXISTS `docsitasi_prodi`;
-CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `docsitasi_prodi` AS select author_doc.prodi,SUM(jumlah_sitasi) AS jumlah_sitasi,doc_prodi.jumlah_doc from author_doc INNER JOIN doc_prodi on author_doc.prodi=doc_prodi.prodi GROUP BY author_doc.prodi ORDER BY jumlah_doc DESC ;
-
--- ----------------------------
 -- View structure for doc_prodi
 -- ----------------------------
 DROP VIEW IF EXISTS `doc_prodi`;
 CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `doc_prodi` AS select prodi, count(*) as jumlah_doc from author_doc GROUP BY prodi ORDER BY jumlah_doc DESC ;
+
+-- ----------------------------
+-- View structure for docsitasi_prodi
+-- ----------------------------
+DROP VIEW IF EXISTS `docsitasi_prodi`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `docsitasi_prodi` AS select author_doc.prodi,SUM(jumlah_sitasi) AS jumlah_sitasi,doc_prodi.jumlah_doc from author_doc INNER JOIN doc_prodi on author_doc.prodi=doc_prodi.prodi GROUP BY author_doc.prodi ORDER BY jumlah_doc DESC ;
 
 -- ----------------------------
 -- View structure for major_prodi
