@@ -36,29 +36,25 @@ class Documents
 
 	public function docterbanyak()
 	{
-		$this->db->query('SELECT author.nama_dosen,Count(documents.scopus_id) as jumlah  FROM documents LEFT JOIN author 
-						on documents.scopus_id=author.id_scopus GROUP BY author.nama_dosen ORDER BY jumlah DESC LIMIT 10');
+		$this->db->query('select nama_dosen, jumlah_doc from author_doc ORDER BY jumlah_doc DESC LIMIT 10');
 		return $this->db->resultSetArray();
 	}
 
 	public function docsitasiterbanyak()
 	{
-		$this->db->query('SELECT author.nama_dosen,SUM(documents.citiedCount) as jumlah  FROM documents LEFT JOIN author on documents.scopus_id=author.id_scopus 
-						GROUP BY author.nama_dosen ORDER BY jumlah DESC LIMIT 10');
+		$this->db->query('select nama_dosen, jumlah_sitasi from author_doc ORDER BY jumlah_doc DESC LIMIT 10');
 		return $this->db->resultSetArray();
 	}
 
 	public function docterbanyakprodi()
 	{
-		$this->db->query('SELECT author.prodi,COUNT(*) as jumlah FROM documents, author WHERE documents.scopus_id = author.id_scopus 
-						GROUP BY author.prodi ORDER BY jumlah DESC LIMIT 10');
+		$this->db->query('select * from doc_prodi LIMIT 10');
 		return $this->db->resultSetArray();
 	}
 
 	public function docsitasiterbanyakprodi()
 	{
-		$this->db->query('SELECT author.prodi,SUM(documents.citiedCount) as jumlah FROM documents, author WHERE documents.scopus_id = author.id_scopus 
-						GROUP BY author.prodi ORDER BY jumlah DESC LIMIT 10');
+		$this->db->query('select * from docsitasi_prodi LIMIT 10');
 		return $this->db->resultSetArray();
 	}
 
@@ -77,6 +73,12 @@ class Documents
 
 	public function jumlahdocauthor($_id){
 		$this->db->query("SELECT Count(documents.scopus_id) as jumlah  FROM documents where scopus_id='$_id'");
+		return $this->db->resultSetArray();
+	}
+
+	public function majorprodi()
+	{
+		$this->db->query('select * from major_prodi');
 		return $this->db->resultSetArray();
 	}
 

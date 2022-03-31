@@ -26,46 +26,7 @@
           <th>Jumlah Sitasi</th>
         </thead>
         <tbody>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>Teknik Informatika</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>Teknik Informatika</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>Teknik Informatika</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>Teknik Informatika</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>001</td>
-            <td>Angga Setiyadi</td>
-            <td>Judul Publikasi</td>
-            <td>2020</td>
-            <td>Teknik Informatika</td>
-            <td>123</td>
-          </tr>
+          
         </tbody>
       </table>
     </div>
@@ -80,7 +41,6 @@
   <div class="table">
     <table class="bm-table" style="width: 100%" id="table_detail_major">
       <thead>
-        <th>No</th>
         <th>Prodi</th>
         <th>Fakultas</th>
         <th>Jumlah Publikasi</th>
@@ -88,106 +48,17 @@
         <th>Aksi</th>
       </thead>
       <tbody>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
-        <tr>
-          <td>001</td>
-          <td>Teknik Informatika</td>
-          <td>Teknik dan Ilmu Komputer</td>
-          <td>123</td>
-          <td>123</td>
-          <td>
-            <a class="bm-link" rel="modal:open" href="#row_detail_modal">Lihat Detail</a>
-          </td>
-        </tr>
+      <?php foreach ($major as $key) : ?>
+          <tr>
+            <td><?php echo $key->prodi; ?></td>
+            <td><?php echo $key->fakultas; ?></td>
+            <td><?php echo $key->jumlah_doc; ?></td>
+            <td><?php echo $key->jumlah_sitasi; ?></td>
+            <td>
+              <a class="bm-link" rel="modal:open" href="#row_detail_modal" >Lihat Detail</a>
+            </td>
+          </tr>
+        <?php endforeach; ?>
       </tbody>
     </table>
   </div>

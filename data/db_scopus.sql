@@ -11,7 +11,7 @@
  Target Server Version : 50733
  File Encoding         : 65001
 
- Date: 29/03/2022 21:08:59
+ Date: 31/03/2022 23:46:47
 */
 
 SET NAMES utf8mb4;
@@ -1440,5 +1440,23 @@ FROM
 	author_doc
 WHERE
 	author_doc.id_scopus = documents.scopus_id ;
+
+-- ----------------------------
+-- View structure for docsitasi_prodi
+-- ----------------------------
+DROP VIEW IF EXISTS `docsitasi_prodi`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `docsitasi_prodi` AS select author_doc.prodi,SUM(jumlah_sitasi) AS jumlah_sitasi,doc_prodi.jumlah_doc from author_doc INNER JOIN doc_prodi on author_doc.prodi=doc_prodi.prodi GROUP BY author_doc.prodi ORDER BY jumlah_doc DESC ;
+
+-- ----------------------------
+-- View structure for doc_prodi
+-- ----------------------------
+DROP VIEW IF EXISTS `doc_prodi`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `doc_prodi` AS select prodi, count(*) as jumlah_doc from author_doc GROUP BY prodi ORDER BY jumlah_doc DESC ;
+
+-- ----------------------------
+-- View structure for major_prodi
+-- ----------------------------
+DROP VIEW IF EXISTS `major_prodi`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `major_prodi` AS select a.prodi,b.fakultas,a.jumlah_doc,a.jumlah_sitasi from docsitasi_prodi as a INNER JOIN author_doc as b on a.prodi=b.prodi GROUP BY b.fakultas,a.prodi ORDER BY a.prodi ;
 
 SET FOREIGN_KEY_CHECKS = 1;

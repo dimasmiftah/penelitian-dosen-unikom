@@ -81,8 +81,7 @@ $router->get('/author/caridosen/{slug}', function ($slug) {
 });
 
 $router->get('/detail/major', function () {
-    return view('detail_major_view'); # langsung view
-    // Routes::Routing("AuthorController", "index"); # panggil controller
+    Routes::Routing("MajorProdiController", "index"); # panggil controller
 });
 
 $router->get('/detail/lecturer', function () {

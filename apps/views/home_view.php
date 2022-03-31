@@ -43,6 +43,7 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
         data: [<?php foreach ($docpertahun as $data) : ?> '<?php echo $data->jumlah ?>',
           <?php endforeach; ?>
         ],
+        
         backgroundColor: ['rgba(255, 159, 64, 0.2)'],
         borderColor: ['rgba(255, 159, 64, 1)'],
         borderWidth: 1,
@@ -82,7 +83,7 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
       ],
       datasets: [{
           label: 'Jumlah Dokumen',
-          data: [<?php foreach ($docteratasprodi as $data) : ?> '<?php echo $data->jumlah ?>',
+          data: [<?php foreach ($docsitasiteratasprodi as $data) : ?> '<?php echo $data->jumlah_doc ?>',
             <?php endforeach; ?>
           ],
           backgroundColor: ['rgba(75, 192, 192, 0.2)'],
@@ -92,7 +93,7 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
         },
         {
           label: 'Jumlah Sitasi',
-          data: [<?php foreach ($docsitasiteratasprodi as $data) : ?> '<?php echo $data->jumlah ?>',
+          data: [<?php foreach ($docsitasiteratasprodi as $data) : ?> '<?php echo $data->jumlah_sitasi ?>',
             <?php endforeach; ?>
           ],
           backgroundColor: ['rgba(153, 102, 255, 0.2)'],
@@ -132,7 +133,7 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
       ],
       datasets: [{
           label: 'Jumlah Dokumen',
-          data: [<?php foreach ($docteratas as $data) : ?> '<?php echo $data->jumlah ?>',
+          data: [<?php foreach ($docteratas as $data) : ?> '<?php echo $data->jumlah_doc ?>',
             <?php endforeach; ?>
           ],
           backgroundColor: ['rgba(54, 162, 235, 0.2)'],
@@ -142,7 +143,7 @@ use MiniMvc\Apps\Core\Bootstraping\Security;
         },
         {
           label: 'Jumlah Sitasi',
-          data: [<?php foreach ($docsitasiteratas as $data) : ?> '<?php echo $data->jumlah ?>',
+          data: [<?php foreach ($docsitasiteratas as $data) : ?> '<?php echo $data->jumlah_sitasi ?>',
             <?php endforeach; ?>
           ],
           backgroundColor: ['rgba(255, 99, 132, 0.2)'],
