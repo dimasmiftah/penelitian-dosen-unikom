@@ -1,4 +1,0 @@
-SetEnvIfNoCase Referer "example.com" bad_referer
-Order Allow,Deny
-Allow from ALL
-Deny from env=bad_referer
