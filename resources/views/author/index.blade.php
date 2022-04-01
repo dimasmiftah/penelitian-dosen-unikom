@@ -182,17 +182,18 @@
         const data = await obj.json();
         heading.innerHTML = 'Edit Data';
         $('#nip_user').val(param);
-        $('#nama_dosen').val(data.data['nama_dosen']);
-        $('#fakultas').val(data.data['fak']);
-        $('#prodi').val(data.data['prodi']);
-        $('#fakultas').val(data.data['fak'])
-        $('#prodi').val(data.data['prodi'])
-        $('#id_scopus').val(data.data['id_scopus'])
+        $('#nama_dosen').val(data.data[0]['nama_dosen']);
+        $('#fakultas').val(data.data[0]['fak']);
+        $('#prodi').val(data.data[0]['prodi']);
+        $('#fakultas').val(data.data[0]['fak'])
+        $('#prodi').val(data.data[0]['prodi'])
+        $('#id_scopus').val(data.data[0]['id_scopus'])
     }
 
     async function cariDosen(param) {
-        const obj = await fetch('api/caridosen/' + param);
+        const obj = await fetch('https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=');
         const data = await obj.json();
+        console.log(data);
         $('#nip_user').val(data['nip']);
         $('#nama_dosen').val(data['nama_dosen'])
         $('#fakultas').val(data['fak'])

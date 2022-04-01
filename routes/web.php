@@ -16,4 +16,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+
 Route::get('author', [AuthorController::class, 'index']);
+
+Route::get('detail/lecturer', [AuthorController::class, 'indexDetail']);
+
+Route::get('detail/major', [AuthorController::class, 'indexMajor']);
+
+Route::get('api/select/{slug}', [AuthorController::class, 'dosenSelect']);
+
+Route::get('api/caridosen/{slug}', [AuthorController::class, 'cariDosen']);
+
+
+Route::get('api/authordoc/{slug}', [AuthorController::class, 'authorDoc']);
