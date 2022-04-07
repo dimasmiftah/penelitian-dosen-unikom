@@ -22,7 +22,11 @@
                     <th>Penulis</th>
                     <th>Judul Publikasi</th>
                     <th>Tahun</th>
+                    <th>Halaman</th>
+                    <th>Volume</th>
                     <th>Jumlah Sitasi</th>
+                    <th>Nama Publikasi</th>
+                    <th>Tipe</th>
                 </thead>
             </table>
         </div>
@@ -98,7 +102,19 @@
                     data: "coverDate"
                 },
                 {
+                    data: "page"
+                },
+                {
+                    data: "volume"
+                },
+                {
                     data: "citiedCount"
+                },
+                {
+                    data: "publication_name"
+                },
+                {
+                    data: "aggregation_type"
                 },
             ],
             "bDestroy": true,
