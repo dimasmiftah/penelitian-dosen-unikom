@@ -7,7 +7,7 @@
     </div>
 
     <div class="bm-modal bm-modal--scrollable" id="row_detail_modal" role="dialog" aria-modal="true"
-        aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+        aria-labelledby="modal-label" tabindex="-1" style="width: 50%">
         <div class="bm-modal__header">
             <h5 class="bm-modal__title">Detail Publikasi Program Studi</h5>
             <a class="bm-modal__button-close" aria-label="close" rel="modal:close">

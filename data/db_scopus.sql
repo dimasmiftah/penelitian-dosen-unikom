@@ -1591,6 +1591,17 @@ INSERT INTO `publisher` VALUES ('9781728180472', '2020 5th International Confere
 INSERT INTO `publisher` VALUES ('9781728199108', '2020 IEEE 10th International Conference on System Engineering and Technology, ICSET 2020 - Proceedings', 'Conference Proceeding', '2022-04-07 13:58:46', '2022-04-07 13:58:46', NULL);
 
 -- ----------------------------
+-- View structure for author_fakprodi
+-- ----------------------------
+DROP VIEW IF EXISTS `author_fakprodi`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `author_fakprodi` AS SELECT
+	author.nip,
+	author.fak,
+	author.prodi
+FROM
+	author ;
+
+-- ----------------------------
 -- View structure for author_doc
 -- ----------------------------
 DROP VIEW IF EXISTS `author_doc`;
@@ -1602,17 +1613,6 @@ CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `author_doc` AS SELECT DI
 	(SELECT prodi from author_fakprodi where nip=author.nip ORDER BY prodi ASC limit 1) as prodi,
 	(SELECT COUNT(*) from documents WHERE scopus_id=author.id_scopus) as jumlah_doc,
 	(SELECT COALESCE(SUM(citiedCount),0) from documents WHERE documents.scopus_id=author.id_scopus) as jumlah_sitasi
-FROM
-	author ;
-
--- ----------------------------
--- View structure for author_fakprodi
--- ----------------------------
-DROP VIEW IF EXISTS `author_fakprodi`;
-CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `author_fakprodi` AS SELECT
-	author.nip,
-	author.fak,
-	author.prodi
 FROM
 	author ;
 

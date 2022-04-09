@@ -7,7 +7,7 @@
     </div>
 
     <div class="bm-modal bm-modal--scrollable" id="row_detail_modal" role="dialog" aria-modal="true"
-        aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+        aria-labelledby="modal-label" tabindex="-1" style="width: 50%">
         <div class="bm-modal__header">
             <h5 class="bm-modal__title">Detail Publikasi Dosen</h5>
             <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
@@ -17,7 +17,7 @@
         </div>
 
         <div class="bm-modal__body">
-            <table class="bm-table" style="width: 100%" id="table_detail_lecturer_row">
+            <table class="bm-table modal-table" style="width: 100%" id="table_detail_lecturer_row">
                 <thead>
                     <th>Penulis</th>
                     <th>Judul Publikasi</th>

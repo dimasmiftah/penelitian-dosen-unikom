@@ -23,7 +23,7 @@
     </div>
 
     <div class="bm-modal bm-modal--scrollable" id="delete_author_modal" role="dialog" aria-modal="true"
-        aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+        aria-labelledby="modal-label" tabindex="-1" style="width: 50%">
         <div class="bm-modal__header">
             <h5 class="bm-modal__title">Hapus Data</h5>
             <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
@@ -47,7 +47,7 @@
     </div>
 
     <div class="bm-modal bm-modal--scrollable" id="find_author_modal" role="dialog" aria-modal="true"
-        aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+        aria-labelledby="modal-label" tabindex="-1" style="width: 50%">
         <div class="bm-modal__header">
             <h5 class="bm-modal__title">Cari Dosen</h5>
             <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
@@ -78,7 +78,7 @@
     </div>
 
     <div class="bm-modal bm-modal--scrollable" id="add_author_modal" role="dialog" aria-modal="true"
-        aria-labelledby="modal-label" tabindex="-1" style="width: 40%">
+        aria-labelledby="modal-label" tabindex="-1" style="width: 50%">
         <div class="bm-modal__header">
             <h5 class="bm-modal__title" id="headermodal">Tambah Data</h5>
             <a class="bm-modal__button-close" aria-label="close" rel="modal:close">
