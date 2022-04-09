@@ -98,3 +98,28 @@
 .header .actions button {
     margin-left: 1rem;
 }
+
+.login {
+    margin-top: 10vh;
+}
+
+.login__form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0px 8px 20px 6px rgba(0, 0, 0, 0.06);
+}
+
+.login__form__text {
+    color: #7a7a7a;
+    text-align: center;
+}
+
+.login__form__logo {
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
