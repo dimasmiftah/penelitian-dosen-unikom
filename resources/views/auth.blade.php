@@ -1,6 +1,7 @@
 @include('layout.header')
 <div class="login">
-    <form action="" class="login__form">
+    <form method="post" action="{{ url('/main/checklogin') }} class="login__form">
+        {{ csrf_field() }}
         <img class="login__form__logo" src="https://www.unikom.ac.id/img/logo_unikom_kuning.png" alt="Logo UNIKOM">
         <p class="login__form__text">Silakan login dengan memasukkan Username dan Password anda.</p>
 
@@ -17,7 +18,7 @@
         </div>
 
         <br />
-        <button class="bm-btn" style="width: 100%;">Login</button>
+        <button type="submit" class="bm-btn" style="width: 100%;">Login</button>
     </form>
 </div>
 <script>

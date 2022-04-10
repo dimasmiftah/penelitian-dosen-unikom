@@ -1,13 +1,14 @@
 <?php
- 
+
 namespace App\Http\Controllers;
- 
+
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use Carbon\Carbon;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
- 
+
 class AuthorController extends Controller
 {
     /**
@@ -19,7 +20,7 @@ class AuthorController extends Controller
 
     public function index()
     {
-        
+
         // mengambil data dari database
         $dosen = DB::table('author')->get();
 
@@ -33,7 +34,7 @@ class AuthorController extends Controller
 
     public function indexDetail()
     {
-        
+
         // mengambil data dari database
         $dosen = DB::table('author_doc')->get();
 
@@ -58,32 +59,32 @@ class AuthorController extends Controller
     }
 
     public static function cariDosen($slug)
-	{
-		$content = file_get_contents("https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=");
-		$result  = json_decode($content);
+    {
+        $content = file_get_contents("https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=");
+        $result  = json_decode($content);
 
-		foreach ($result->dosen as $key) {
-			if ($key->nip == $slug[0]) {
-				header('Content-type: application/json');
-				echo json_encode($key);
-			}
-		}
-		// code here show here
-	}
+        foreach ($result->dosen as $key) {
+            if ($key->nip == $slug[0]) {
+                header('Content-type: application/json');
+                echo json_encode($key);
+            }
+        }
+        // code here show here
+    }
 
     public static function dosenSelect($slug)
-	{
-		// echo "ini controller home";
-		$data = [
-			"data" => DB::table('author')->where('nip',$slug)->get(),
-		];
-		header('Content-type: application/json');
-		echo json_encode($data);
-	}
+    {
+        // echo "ini controller home";
+        $data = [
+            "data" => DB::table('author')->where('nip', $slug)->get(),
+        ];
+        header('Content-type: application/json');
+        echo json_encode($data);
+    }
 
     public function detailLecturer()
     {
-        
+
         // mengambil data dari database
         $dosen = DB::table('author')->get();
 
@@ -96,15 +97,30 @@ class AuthorController extends Controller
     }
 
     public static function authorDoc($slug)
-	{
-		header('Content-type: application/json');
-		$data = [
-			"data" => DB::table('detail_doc')->where('nip',$slug)->get(),
-		];
-		echo json_encode($data);
-		//echo json_encode($data);
-		// code here show here
-	}
+    {
+        header('Content-type: application/json');
+        $data = [
+            "data" => DB::table('detail_doc')->where('nip', $slug)->get(),
+        ];
+        echo json_encode($data);
+        //echo json_encode($data);
+        // code here show here
+    }
 
-
+    public static function editAuthor(Request $request)
+    {
+        dd($request->all());
+        DB::table('author')->where('nip', $request->nip)->update([
+            [
+                'id_scopus' => $request->id_scopus,
+                'updateAt' => Carbon::now()
+            ]
+        ]);
+        return response()->json(
+            [
+                'success' => true,
+                'message' => 'Data edit successfully'
+            ]
+        );
+    }
 }

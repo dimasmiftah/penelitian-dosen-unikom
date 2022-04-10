@@ -11,7 +11,7 @@
  Target Server Version : 50733
  File Encoding         : 65001
 
- Date: 07/04/2022 14:22:02
+ Date: 10/04/2022 16:48:41
 */
 
 SET NAMES utf8mb4;
@@ -1493,6 +1493,71 @@ INSERT INTO `documents` VALUES ('85124609343-57204182637', '2-s2.0-85124609343',
 INSERT INTO `documents` VALUES ('85126965953-57204171589', '2-s2.0-85126965953', '10.1007/978-981-16-8690-0_75', 'Nutrient Pump Controller Based on IoT Application for Aquascape Environmental Treatment', 'Conference Paper', '2022-01-01', '842', '0', '57204171589', '18761100', '2022-04-07 13:57:11', '2022-04-07 13:57:11', NULL, '857-866');
 
 -- ----------------------------
+-- Table structure for failed_jobs
+-- ----------------------------
+DROP TABLE IF EXISTS `failed_jobs`;
+CREATE TABLE `failed_jobs`  (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `uuid` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `connection` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `queue` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `payload` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `exception` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `failed_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `failed_jobs_uuid_unique`(`uuid`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for migrations
+-- ----------------------------
+DROP TABLE IF EXISTS `migrations`;
+CREATE TABLE `migrations`  (
+  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `migration` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of migrations
+-- ----------------------------
+INSERT INTO `migrations` VALUES (1, '2014_10_12_000000_create_users_table', 1);
+INSERT INTO `migrations` VALUES (2, '2014_10_12_100000_create_password_resets_table', 1);
+INSERT INTO `migrations` VALUES (3, '2019_08_19_000000_create_failed_jobs_table', 1);
+INSERT INTO `migrations` VALUES (4, '2019_12_14_000001_create_personal_access_tokens_table', 1);
+
+-- ----------------------------
+-- Table structure for password_resets
+-- ----------------------------
+DROP TABLE IF EXISTS `password_resets`;
+CREATE TABLE `password_resets`  (
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp(0) NULL DEFAULT NULL,
+  INDEX `password_resets_email_index`(`email`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Table structure for personal_access_tokens
+-- ----------------------------
+DROP TABLE IF EXISTS `personal_access_tokens`;
+CREATE TABLE `personal_access_tokens`  (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `tokenable_type` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `tokenable_id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `abilities` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL,
+  `last_used_at` timestamp(0) NULL DEFAULT NULL,
+  `created_at` timestamp(0) NULL DEFAULT NULL,
+  `updated_at` timestamp(0) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `personal_access_tokens_token_unique`(`token`) USING BTREE,
+  INDEX `personal_access_tokens_tokenable_type_tokenable_id_index`(`tokenable_type`, `tokenable_id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
 -- Table structure for publisher
 -- ----------------------------
 DROP TABLE IF EXISTS `publisher`;
@@ -1591,6 +1656,28 @@ INSERT INTO `publisher` VALUES ('9781728180472', '2020 5th International Confere
 INSERT INTO `publisher` VALUES ('9781728199108', '2020 IEEE 10th International Conference on System Engineering and Technology, ICSET 2020 - Proceedings', 'Conference Proceeding', '2022-04-07 13:58:46', '2022-04-07 13:58:46', NULL);
 
 -- ----------------------------
+-- Table structure for users
+-- ----------------------------
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users`  (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email_verified_at` timestamp(0) NULL DEFAULT NULL,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL,
+  `created_at` timestamp(0) NULL DEFAULT NULL,
+  `updated_at` timestamp(0) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE INDEX `users_email_unique`(`email`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of users
+-- ----------------------------
+INSERT INTO `users` VALUES (1, 'Admin JPI', 'admin@jpi.unikom.ac.id', NULL, '$2y$10$cAgSm533b8zc0YtJlV6IT.9/.FXS2ZId69Vhg6EadrCMkP0zpbWBy', 'zRdIByPg0xuDu9bqDvdAhAj823QmcznAO2M8SBhkaSUo50cef7Ffb1JgU723', '2022-04-10 07:35:56', '2022-04-10 07:35:56');
+
+-- ----------------------------
 -- View structure for author_fakprodi
 -- ----------------------------
 DROP VIEW IF EXISTS `author_fakprodi`;
@@ -1615,6 +1702,7 @@ CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `author_doc` AS SELECT DI
 	(SELECT COALESCE(SUM(citiedCount),0) from documents WHERE documents.scopus_id=author.id_scopus) as jumlah_sitasi
 FROM
 	author ;
+
 
 -- ----------------------------
 -- View structure for detail_doc
@@ -1642,22 +1730,25 @@ WHERE
 
 
 -- ----------------------------
--- View structure for doc_pertahun
--- ----------------------------
-DROP VIEW IF EXISTS `doc_pertahun`;
-CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `doc_pertahun` AS SELECT EXTRACT(year FROM coverDate) AS year, COUNT(eid) AS jumlah_doc, SUM(citiedCount) as jumlah_sitasi FROM documents WHERE coverDate >= curdate() - interval 4 year GROUP BY EXTRACT(year FROM coverDate) ;
-
--- ----------------------------
 -- View structure for doc_prodi
 -- ----------------------------
 DROP VIEW IF EXISTS `doc_prodi`;
 CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `doc_prodi` AS select prodi, count(*) as jumlah_doc from author_doc GROUP BY prodi ORDER BY jumlah_doc DESC ;
 
+	
 -- ----------------------------
 -- View structure for docsitasi_prodi
 -- ----------------------------
 DROP VIEW IF EXISTS `docsitasi_prodi`;
 CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `docsitasi_prodi` AS select author_doc.prodi,SUM(jumlah_sitasi) AS jumlah_sitasi,doc_prodi.jumlah_doc from author_doc INNER JOIN doc_prodi on author_doc.prodi=doc_prodi.prodi GROUP BY author_doc.prodi ORDER BY jumlah_doc DESC ;
+
+
+-- ----------------------------
+-- View structure for doc_pertahun
+-- ----------------------------
+DROP VIEW IF EXISTS `doc_pertahun`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `doc_pertahun` AS SELECT EXTRACT(year FROM coverDate) AS year, COUNT(eid) AS jumlah_doc, SUM(citiedCount) as jumlah_sitasi FROM documents WHERE coverDate >= curdate() - interval 4 year GROUP BY EXTRACT(year FROM coverDate) ;
+
 
 -- ----------------------------
 -- View structure for major_prodi

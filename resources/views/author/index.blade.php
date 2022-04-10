@@ -88,47 +88,52 @@
         </div>
 
         <div class="bm-modal__body">
-            <form action="">
+            <form id="formdata">
                 <label class="bm-input-label" for="id_scopus">ID Scopus</label>
                 <div class="bm-input">
-                    <input type="text" id="id_scopus" class="bm-input__field" placeholder="ID Scopus dosen" />
+                    <input type="text" id="id_scopus" name="id_scopus" class="bm-input__field"
+                        placeholder="ID Scopus dosen" />
                 </div>
 
                 <br />
                 <label class="bm-input-label" for="nip_user">NIP</label>
                 <div class="bm-input">
-                    <input type="text" id="nip_user" class="bm-input__field" placeholder="NIP dosen" disabled />
+                    <input type="text" id="nip_user" name="nip" class="bm-input__field" placeholder="NIP dosen"
+                        readonly="true" />
                 </div>
 
                 <br />
                 <label class="bm-input-label" for="nama_dosen">Nama</label>
                 <div class="bm-input">
-                    <input type="text" id="nama_dosen" class="bm-input__field" placeholder="Nama lengkap dosen"
-                        disabled />
+                    <input type="text" id="nama_dosen" name="nama" class="bm-input__field"
+                        placeholder="Nama lengkap dosen" readonly="true" />
                 </div>
 
                 <br />
                 <label class="bm-input-label" for="fakultas">Fakultas</label>
                 <div class="bm-input">
-                    <input type="text" id="fakultas" class="bm-input__field" placeholder="Nama fakultas" disabled />
+                    <input type="text" id="fakultas" name="fakultas" class="bm-input__field" placeholder="Nama fakultas"
+                        readonly="true" />
                 </div>
 
                 <br />
                 <label class="bm-input-label" for="prodi">Prodi</label>
                 <div class="bm-input">
-                    <input type="text" id="prodi" class="bm-input__field" placeholder="Nama program studi" disabled />
+                    <input type="text" id="prodi" name="prodi" class="bm-input__field" placeholder="Nama program studi"
+                        readonly="true" />
                 </div>
-            </form>
+
         </div>
 
         <div class="bm-modal__footer">
             <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
                 <span class="bm-btn__label">Tutup</span>
             </a>
-            <button type="button" class="bm-btn" id="btn_simpan" onClick="saveData()">
-                <span class="bm-btn__label">Simpan</span>
+            <button type="submit" class="bm-btn" id="btn_simpan" ">
+                <span class=" bm-btn__label">Simpan</span>
             </button>
         </div>
+        </form>
     </div>
 
     <div class="table">
@@ -191,7 +196,9 @@
     }
 
     async function cariDosen(param) {
-        const obj = await fetch('https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0=');
+        const obj = await fetch(
+            'https://dp3m.unikom.ac.id/pengajuan/JSON_DATA/get_kar.php?token=cWxGaFZmajIvcmJtUkMwU096NXJmZ3h0YkVMQ1cyREZNV3ZkS0tXckNXcz0='
+        );
         const data = await obj.json();
         console.log(data);
         $('#nip_user').val(data['nip']);
@@ -202,7 +209,29 @@
     }
 
     async function saveData(param) {
+        var nip = $("#nip_user").val();
+        var scopus_id = $("#id_scopus").val();
 
+
+        // $.ajax({
+        //     url: {{ url('api/author/edit') }},
+        //     type: "POST",
+        //     headers: {
+        //         'X-CSRF-Token': '{{ csrf_token() }}',
+        //     },
+        //     data: {
+        //         nip: nip,
+        //         id_scopus: scopus_id
+        //     },
+        //     dataType: 'json',
+        //     success: function(data) {
+
+
+        //     },
+        //     error: function(data) {
+        //         console.log('Error......');
+        //     }
+        // });
     }
 </script>
 </body>

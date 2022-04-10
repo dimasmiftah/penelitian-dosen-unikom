@@ -18,9 +18,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('login', [AuthController::class, 'index']);
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
 
-Route::get('author', [AuthorController::class, 'index']);
+Route::get('author', [AuthorController::class, 'index'])->middleware(['auth'])->name('author');
 
 Route::get('detail/lecturer', [AuthorController::class, 'indexDetail']);
 
@@ -30,5 +32,8 @@ Route::get('api/select/{slug}', [AuthorController::class, 'dosenSelect']);
 
 Route::get('api/caridosen/{slug}', [AuthorController::class, 'cariDosen']);
 
-
 Route::get('api/authordoc/{slug}', [AuthorController::class, 'authorDoc']);
+
+Route::post('api/author/edit', [AuthorController::class, 'editAuthor']);
+
+require __DIR__.'/auth.php';
