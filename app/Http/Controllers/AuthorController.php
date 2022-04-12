@@ -107,17 +107,18 @@ class AuthorController extends Controller
         // code here show here
     }
 
-    public static function editAuthor(Request $request)
+    public static function editAuthor($data)
     {
-        dd($request->all());
-        DB::table('author')->where('nip', $request->nip)->update([
-            [
-                'id_scopus' => $request->id_scopus,
-                'updateAt' => Carbon::now()
-            ]
+        $datadecode = explode('&', $data);
+        DB::table('author')->where('nip', $datadecode[0])->update([
+
+            'id_scopus' => $datadecode[1],
+            'updateAt' => Carbon::now()
+
         ]);
         return response()->json(
             [
+                'data' => $datadecode,
                 'success' => true,
                 'message' => 'Data edit successfully'
             ]

@@ -34,6 +34,6 @@ Route::get('api/caridosen/{slug}', [AuthorController::class, 'cariDosen']);
 
 Route::get('api/authordoc/{slug}', [AuthorController::class, 'authorDoc']);
 
-Route::post('api/author/edit', [AuthorController::class, 'editAuthor']);
+Route::get('api/author/edit/{data}', [AuthorController::class, 'editAuthor']);
 
 require __DIR__.'/auth.php';

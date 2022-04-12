@@ -129,7 +129,7 @@
             <a type="button" class="bm-btn bm-btn--secondary" rel="modal:close">
                 <span class="bm-btn__label">Tutup</span>
             </a>
-            <button type="submit" class="bm-btn" id="btn_simpan" ">
+            <button type="submit" class="bm-btn" id="btn_simpan" onclick="saveData()">
                 <span class=" bm-btn__label">Simpan</span>
             </button>
         </div>
@@ -211,8 +211,11 @@
     async function saveData(param) {
         var nip = $("#nip_user").val();
         var scopus_id = $("#id_scopus").val();
-
-
+        var author = nip + "&" + scopus_id;
+        console.log(author);
+        const obj = await fetch('api/author/edit/' + author);
+        const data = await obj.json();
+        console.log(data);
         // $.ajax({
         //     url: {{ url('api/author/edit') }},
         //     type: "POST",
